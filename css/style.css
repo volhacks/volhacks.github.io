@@ -11,6 +11,44 @@
   -webkit-justify-content: center;
   justify-content: center;
 }
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham/GothamBook.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham/GothamMedium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham/GothamBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham/GothamLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham/GothamExtraLight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
 /*
  ********************************
  *
@@ -22,18 +60,18 @@ body {
   overflow-x: hidden !important;
 }
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gotham', 'Gotham', sans-serif;
   text-decoration: none;
 }
 a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gotham', 'Gotham', sans-serif;
   text-decoration: none;
 }
 .fix {
   overflow: hidden;
 }
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gotham', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
@@ -43,7 +81,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Gotham', 'Gotham', sans-serif;
 }
 h1 {
   font-size: 40px;
@@ -51,7 +89,7 @@ h1 {
   font-weight: 300;
 }
 h1 b {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Gotham', 'Gotham', sans-serif;
 }
 h2 {
   font-size: 35px;
@@ -59,7 +97,7 @@ h2 {
   line-height: 52px;
 }
 h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gotham', 'Gotham', sans-serif;
   font-size: 25px;
   font-weight: 300;
   line-height: 42px;
@@ -69,35 +107,39 @@ h3 {
 .about-our-event-left p,
 .social-icon,
 .twitter-posts-body p .our-featured-speaker-body,
-.speakers-body,
-.sponsore-body,
+.venue-left-body,
+.venue-right-body,
+.venue-right,
+.sponsor-body,
 .about-our-event-left-body,
 .about-our-event-right-body,
-.scedule-body,
+.schedule-body,
 .testimonial-body,
 .contact-us-left,
 .collapse-right,
 .pricing-tables-body,
 .twitter-posts-body .header-body .btn-group,
-.speakers-body h2,
-.sponsore-body h2,
+.venue-body h2,
+.sponsor-body h2,
 .footer-body,
 .tab-content .testimonial-img,
 .contact-us-left h2,
 .collapse-right h2,
-.scedule-main,
+.schedule-main,
 .table-single .btn-group .btn-cus,
 .twitter-logo,
 .sponsors-logo,
-.about-our-event {
+.about-our-event,
+.venue {
   overflow: hidden;
 }
 .our-featured-speaker-body,
-.speakers-body,
-.sponsore-body,
+.sponsor-body,
+/*.venue-left-body,
+.venue-right-body,
 .about-our-event-left-body,
-.about-our-event-right-body,
-.scedule-body,
+.about-our-event-right-body,*/
+.schedule-body,
 .testimonial-body,
 .register-body,
 .contact-us-left,
@@ -107,11 +149,12 @@ h3 {
   padding-top: 80px;
 }
 .our-featured-speaker-body,
-.speakers-body,
-.sponsore-body,
+.sponsor-body,
+/*.venue-left-body,
+.venue-right-body,
 .about-our-event-left-body,
-.about-our-event-right-body,
-.scedule-body,
+.about-our-event-right-body,*/
+.schedule-body,
 .testimonial-body,
 .register-body,
 .contact-us-left,
@@ -120,14 +163,14 @@ h3 {
 .twitter-posts-body {
   padding-bottom: 80px;
 }
+
 .header-body .btn-group,
-.speakers-body h2,
-.sponsore-body h2,
+.sponsor-body h2,
 .footer-body,
 .tab-content .testimonial-img,
 .contact-us-left h2,
 .collapse-right h2,
-.scedule-main,
+.schedule-main,
 .table-single .btn-group .btn-cus,
 .twitter-logo,
 .sponsors-logo {
@@ -136,7 +179,8 @@ h3 {
 .btn-group,
 .our-featured-speaker-right p,
 .footer-body,
-.about-our-event-left p,
+/*.about-our-event-left p,
+.venue-right p,*/
 .social-icon,
 .twitter-posts-body p {
   margin-top: 50px;
@@ -219,7 +263,7 @@ h3 {
  *  
  */
 .header-background {
-  background: url('../images/bg-1.jpg') top center fixed;
+  background: url('../images/tb.jpg') top center fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -382,12 +426,12 @@ h3 {
   color: #FFFFFF;
   font-size: 70px;
   font-weight: 300;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Gotham', sans-serif;
   display: block;
   text-align: center;
 }
 .time .title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gotham', sans-serif;
   color: #FFFFFF;
   font-weight: lighter;
   display: block;
@@ -409,7 +453,7 @@ h3 {
   color: #FFFFFF;
   text-align: justify;
 }
-.buy-tricket .btn-group .btn-fill {
+.buy-ticket .btn-group .btn-fill {
   color: #FFFFFF;
 }
 /*
@@ -419,8 +463,13 @@ h3 {
  *  
  *  
  */
+
 .about-our-event {
   position: relative;
+}
+.about-our-event-left {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .about-our-event-left h2 {
   margin-top: -12px;
@@ -436,11 +485,11 @@ h3 {
   margin-bottom: 20px !important;
 }
 .about-our-event-right .time .counter {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Gotham, sans-serif';
   font-size: 35px;
 }
 .about-our-event-right .time .title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gotham', sans-serif;
   font-size: 16px;
 }
 .about-background-image {
@@ -457,7 +506,7 @@ h3 {
   overflow: hidden;
 }
 .about-background-image .background-right {
-  background-image: url('../images/scedule.jpg');
+  background-image: url('../images/neyland4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 0;
@@ -498,25 +547,25 @@ h3 {
 /*
  ********************************
  *
- *  Scedule CSS
+ *  schedule CSS
  *  
  *  
  */
-.scedule-background {
-  background: url('../images/bg-3.jpg') top center fixed;
+.schedule-background {
+  background: url('../images/students.jpg') top center fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.scedule-main .btn-group {
+.schedule-main .btn-group {
   float: left;
 }
-.scedule-main .btn-group .btn-border {
+.schedule-main .btn-group .btn-border {
   border-color: #FFFFFF;
   color: #FFFFFF;
   width: 100% !important;
   padding-right: 0px;
 }
-.scedule-main .active .btn-border {
+.schedule-main .active .btn-border {
   color: #FFFFFF;
 }
 .nav-cus .active a {
@@ -569,33 +618,66 @@ h3 {
 /*
  ********************************
  *
- *  Speakers CSS
+ *  Venue CSS
  *  
  *  
  */
-.speakers {
-  background: #f5f6f8;
+
+.venue {
+  position: relative;
 }
-.speakers-body h2 {
-  text-align: center;
+.venue-right {
+  padding-left: 10%;
+  padding-right: 10%;
 }
-.item {
-  display: inline-block !important;
+.venue-right h2 {
+  margin-top: -12px;
 }
-.item a {
-  display: block;
-  text-decoration: none !important;
-}
-.item p {
+.venue-right p {
   color: #60626d;
 }
-.item h3 {
-  margin-bottom: 0;
-  margin-top: 30px;
+.venue-left {
+  overflow: hidden;
 }
-.item .view {
-  margin-bottom: 10px;
+.venue-left .time {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
 }
+.venue-left .time .counter {
+  font-family: 'Gotham, sans-serif';
+  font-size: 35px;
+}
+.venue-left .time .title {
+  font-family: 'Gotham', sans-serif;
+  font-size: 16px;
+}
+.venue-background-image {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -9;
+}
+.venue-background-image .background-right,
+.venue-background-image .background-left {
+  /*overflow: hidden;*/
+}
+.venue-background-image .background-left {
+  background-image: url('../images/mk1.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 0;
+  padding-right: 0;
+}
+.background-left-overlay-color {
+  height: 100%;
+  width: 100%;
+}
+
 /*
  ********************************
  *
@@ -678,7 +760,7 @@ h3 {
  * 
  */
 .register-background {
-  background: url('../images/bg-4.jpg') top center fixed;
+  background: url('../images/mk2.JPG') top center fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -762,21 +844,41 @@ h3 {
 /*
  ********************************
  *
- *  Sponsore CSS
+ *  sponsor CSS
  *  
  */
-.sponsore {
+.sponsor {
   background: #ffffff;
 }
-.sponsore-body {
+
+.sponsor-header {
+    padding-bottom: 20px;
+}
+
+.sponsor-body {
   position: inherit !important;
 }
-.sponsore-body h2 {
+.sponsor-body h2 {
   text-align: center;
 }
-.sponsore-body img {
+.sponsor-body p {
+  text-align: center;
+  font-size: 20px;
+}
+.sponsor-body img {
   margin: auto;
   width: 150px;
+}
+
+.sponsor-body img.grayscale {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.sponsor-body img.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
 }
 /*
  ********************************
@@ -907,7 +1009,7 @@ h3 {
   width: 110px;
 }
 .testimonial-body .tab-content .active h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gotham', sans-serif;
   font-size: 25px;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -936,7 +1038,7 @@ h3 {
  *  
  */
 .twitter-background {
-  background: url('../images/bg-3.jpg') top center fixed;
+  background: url('../images/ayres.jpg') top center fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1047,6 +1149,9 @@ footer {
 footer .logo {
   margin-top: 12px;
 }
+footer .logo img {
+  height: 50px !important;
+}
 footer .btn-top {
   background-color: #3B3938;
   padding: 10px 19px;
@@ -1154,7 +1259,7 @@ aside ul li a {
   padding-left: 0px !important;
   padding-right: 0px !important;
   color: #60626d;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gotham', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;

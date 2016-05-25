@@ -34,6 +34,20 @@
         }
     }
 
+    var venueRight = function(){
+        var leftHeight = $('.venue-left').height();
+        var rightHeight = $('.venue-right').height();
+
+        if(rightHeight >= leftHeight){
+            $(".background-left").css('min-height', leftHeight);
+            $(".background-right").css('min-height', leftHeight);
+            $(".background-left-overlay-color").css('min-height', leftHeight);
+        }else{
+            $(".background-left").css('min-height', rightHeight);
+            $(".background-right").css('min-height', rightHeight);
+            $(".background-left-overlay-color").css('min-height', leftHeight);
+        }
+    }
 
 
 
@@ -57,13 +71,13 @@
 
 
     /*********************************************************/
-    /*   SCEDULE SECTION MOBILE VIEW                         */             
+    /*   SCHEDULE SECTION MOBILE VIEW                         */
     /*********************************************************/
-    var btnSceduleCss = function(){
+    var btnscheduleCss = function(){
         if($(document).width() <= 991){
-            $('.btn-scedule-css').css('display', 'block');
+            $('.btn-schedule-css').css('display', 'block');
         }else{
-            $('.btn-scedule-css').css('display', 'none');
+            $('.btn-schedule-css').css('display', 'none');
             $('.nav-cus').css('display', 'block');
         }
     }
@@ -99,6 +113,11 @@
         aboutOurEventLeft();
 
 
+        /**********************************************************/
+        /* Venue Right Height                                     */
+        /**********************************************************/
+        venueRight();
+
 
         /*********************************************************/
         /* COLLAPSE LEFT HEIGHT                                  */
@@ -107,9 +126,9 @@
         
 
         /*********************************************************/
-        /*   SCEDULE SECTION MOBILE VIEW                         */             
+        /*   schedule SECTION MOBILE VIEW                         */
         /*********************************************************/
-        btnSceduleCss();
+        btnscheduleCss();
     });
 
 
@@ -149,9 +168,9 @@
 
 
         /*********************************************************/
-        /*   SCEDULE SECTION MOBILE VIEW                         */             
+        /*   schedule SECTION MOBILE VIEW                         */
         /*********************************************************/
-        btnSceduleCss();
+        btnscheduleCss();
 
 
 
@@ -190,6 +209,10 @@
         aboutOurEventLeft();
 
 
+        /**********************************************************/
+        /* Venue Right Height                                     */
+        /**********************************************************/
+        venueRight();
 
 
         /**********************************************************/
@@ -254,7 +277,7 @@
         /* COUNT DOWN                                              */
         /***********************************************************/       
         $('.count_down').countdown({
-            end_time: "2016/05/21 14:27:28 +0600",
+            end_time: "2016/09/30 17:00:00 -0500",
             wrapper: function(unit){
                 var wrpr = $('<div></div>').
                     addClass(unit.toLowerCase()+'_wrapper').
@@ -308,7 +331,6 @@
         });
 
 
-     
     });
 
 
@@ -316,7 +338,7 @@
     /*   GOOGLE MAP                                           */
     /**********************************************************/
     function init_map() {
-        var myLocation = new google.maps.LatLng(24.892467,91.87048);
+        var myLocation = new google.maps.LatLng(35.958646,-83.924656);
             
             var draggableValue;
             if($(document).width() <= 768){
@@ -336,9 +358,8 @@
             scrollwheel: false,   /*This option is used for disable zoom on mouse.*/
             navigationControl: true,   /**/
             
-            // How you would like to style the map. 
-           // This is where you would paste any style found on Snazzy Maps.
-           styles: [{"stylers": [{"saturation": -100}]}],
+            // Styles
+            styles: [{"stylers": [{"saturation": -100}]}],
 
             streetViewControl: true   /**/
           
@@ -346,7 +367,7 @@
 
         var marker = new google.maps.Marker({
             position: myLocation,
-            title:"Peggy Guggenheim Collection"});
+            title:"Min Kao Building - University of Tennessee, Knoxville"});
           
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);

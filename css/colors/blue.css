@@ -75,16 +75,16 @@
 /*
  ********************************
  *
- *  Speakers CSS
+ *  venue CSS
  *  
  */
-.speakers-body h2 {
+.venue-body h2 {
   color: #609ddb;
 }
-.speakers-body .item a {
+.venue-body .item a {
   color: #609ddb !important;
 }
-.speakers-body .item h3 {
+.venue-body .item h3 {
   color: #609ddb;
 }
 /*

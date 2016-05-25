@@ -117,7 +117,7 @@
   /*
 	 ********************************
 	 *
-	 *  Scedule CSS
+	 *  schedule CSS
 	 *  
 	 */
   .tab-content .tab-pane p {
@@ -128,21 +128,21 @@
     margin: 0;
     transition: all 0.8s;
   }
-  .scedule-body .tab-pane ul {
+  .schedule-body .tab-pane ul {
     padding: 0;
     display: none;
   }
-  .scedule-body .tab-pane h3 {
+  .schedule-body .tab-pane h3 {
     margin-top: 50px;
     margin-bottom: 0px;
   }
-  .scedule-body .tab-pane p {
+  .schedule-body .tab-pane p {
     display: none;
   }
-  .scedule-main {
+  .schedule-main {
     padding-right: 0px;
   }
-  .scedule-main .btn-group {
+  .schedule-main .btn-group {
     margin-top: 10px;
     float: left;
   }
