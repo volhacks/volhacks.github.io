@@ -1,6 +1,14 @@
 /***************************************************************************/
 /* VARIABLES */
 /***************************************************************************/
+
+/*
+ ********************************
+ *
+ *  Default CSS
+ *
+ *
+ */
 .center {
   display: flex;
   -webkit-flex-direction: row;
@@ -11,67 +19,22 @@
   -webkit-justify-content: center;
   justify-content: center;
 }
-
-/* Fonts */
-
-@font-face {
-    font-family: 'Gotham';
-    src: url('/fonts/Gotham/GothamBook.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gotham';
-    src: url('/fonts/Gotham/GothamMedium.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gotham';
-    src: url('/fonts/Gotham/GothamBold.ttf') format('truetype');
-    font-weight: 500;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'Gotham';
-    src: url('/fonts/Gotham/GothamLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gotham';
-    src: url('/fonts/Gotham/GothamExtraLight.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-/*
- ********************************
- *
- *  Defult CSS
- *  
- *  
- */
 body {
   overflow-x: hidden !important;
 }
 * {
-  font-family: 'Gotham', 'Gotham', sans-serif;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
   text-decoration: none;
 }
 a {
-  font-family: 'Gotham', 'Gotham', sans-serif;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
   text-decoration: none;
 }
 .fix {
   overflow: hidden;
 }
-p {
-  font-family: 'Gotham', sans-serif;
+p, li {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
@@ -81,7 +44,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Gotham', 'Gotham', sans-serif;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 h1 {
   font-size: 40px;
@@ -89,7 +52,7 @@ h1 {
   font-weight: 300;
 }
 h1 b {
-  font-family: 'Gotham', 'Gotham', sans-serif;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 h2 {
   font-size: 35px;
@@ -97,7 +60,7 @@ h2 {
   line-height: 52px;
 }
 h3 {
-  font-family: 'Gotham', 'Gotham', sans-serif;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
   font-size: 25px;
   font-weight: 300;
   line-height: 42px;
@@ -107,9 +70,6 @@ h3 {
 .about-our-event-left p,
 .social-icon,
 .twitter-posts-body p .our-featured-speaker-body,
-.venue-left-body,
-.venue-right-body,
-.venue-right,
 .sponsor-body,
 .about-our-event-left-body,
 .about-our-event-right-body,
@@ -135,10 +95,8 @@ h3 {
 }
 .our-featured-speaker-body,
 .sponsor-body,
-/*.venue-left-body,
-.venue-right-body,
 .about-our-event-left-body,
-.about-our-event-right-body,*/
+.about-our-event-right-body,
 .schedule-body,
 .testimonial-body,
 .register-body,
@@ -150,10 +108,8 @@ h3 {
 }
 .our-featured-speaker-body,
 .sponsor-body,
-/*.venue-left-body,
-.venue-right-body,
 .about-our-event-left-body,
-.about-our-event-right-body,*/
+.about-our-event-right-body,
 .schedule-body,
 .testimonial-body,
 .register-body,
@@ -179,9 +135,8 @@ h3 {
 .btn-group,
 .our-featured-speaker-right p,
 .footer-body,
-/*.about-our-event-left p,
-.venue-right p,*/
-.social-icon,
+.about-our-event-left p,
+    .social-icon,
 .twitter-posts-body p {
   margin-top: 50px;
 }
@@ -423,16 +378,16 @@ h3 {
   border-right: 0px solid #D0D0CF;
 }
 .time .counter {
-  color: #FFFFFF;
+  color: white;
   font-size: 70px;
   font-weight: 300;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: block;
   text-align: center;
 }
 .time .title {
-  font-family: 'Gotham', sans-serif;
-  color: #FFFFFF;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
   display: block;
   text-align: center;
@@ -485,12 +440,14 @@ h3 {
   margin-bottom: 20px !important;
 }
 .about-our-event-right .time .counter {
-  font-family: 'Gotham, sans-serif';
+  font-family: 'Montserrat, sans-serif';
   font-size: 35px;
+  color: white;
 }
 .about-our-event-right .time .title {
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  color: white;
 }
 .about-background-image {
   background-color: #ffffff;
@@ -551,6 +508,13 @@ h3 {
  *  
  *  
  */
+.schedule-body {
+    text-align: center;
+    color: white;
+}
+.schedule-body p {
+    color: white;
+}
 .schedule-background {
   background: url('../images/students.jpg') top center fixed;
   background-size: cover;
@@ -625,57 +589,36 @@ h3 {
 
 .venue {
   position: relative;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
-.venue-right {
+.venue-title h2 {
+  text-align: center;
+}
+.venue-body {
+  padding-top: 40px;
+  margin-top: -18px;
+}
+.venue-left {
   padding-left: 10%;
   padding-right: 10%;
 }
-.venue-right h2 {
-  margin-top: -12px;
-}
-.venue-right p {
+.venue-left p {
   color: #60626d;
 }
-.venue-left {
-  overflow: hidden;
-}
-.venue-left .time {
+.venue-right .time {
   margin-top: 20px !important;
   margin-bottom: 20px !important;
 }
-.venue-left .time .counter {
-  font-family: 'Gotham, sans-serif';
+.venue-right .time .counter {
+  font-family: 'Montserrat, sans-serif';
   font-size: 35px;
+  color: #60626d;
 }
-.venue-left .time .title {
-  font-family: 'Gotham', sans-serif;
+.venue-right .time .title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-}
-.venue-background-image {
-  height: 100%;
-  width: 100%;
-  background-color: #ffffff;
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -9;
-}
-.venue-background-image .background-right,
-.venue-background-image .background-left {
-  /*overflow: hidden;*/
-}
-.venue-background-image .background-left {
-  background-image: url('../images/mk1.JPG');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-left: 0;
-  padding-right: 0;
-}
-.background-left-overlay-color {
-  height: 100%;
-  width: 100%;
+  color: #60626d;
 }
 
 /*
@@ -1009,7 +952,7 @@ h3 {
   width: 110px;
 }
 .testimonial-body .tab-content .active h3 {
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -1259,7 +1202,7 @@ aside ul li a {
   padding-left: 0px !important;
   padding-right: 0px !important;
   color: #60626d;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 28px;
