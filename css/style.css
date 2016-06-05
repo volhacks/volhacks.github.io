@@ -73,7 +73,6 @@ h3 {
 .sponsor-body,
 .about-our-event-left-body,
 .about-our-event-right-body,
-.schedule-body,
 .testimonial-body,
 .contact-us-left,
 .collapse-right,
@@ -82,6 +81,7 @@ h3 {
 .venue-body h2,
 .sponsor-body h2,
 .footer-body,
+.schedule,
 .tab-content .testimonial-img,
 .contact-us-left h2,
 .collapse-right h2,
@@ -97,7 +97,9 @@ h3 {
 .sponsor-body,
 .about-our-event-left-body,
 .about-our-event-right-body,
-.schedule-body,
+.venue-left-body,
+.venue-right-body,
+.schedule,
 .testimonial-body,
 .register-body,
 .contact-us-left,
@@ -110,6 +112,8 @@ h3 {
 .sponsor-body,
 .about-our-event-left-body,
 .about-our-event-right-body,
+.venue-left-body,
+.venue-right-body,
 .schedule-body,
 .testimonial-body,
 .register-body,
@@ -120,7 +124,8 @@ h3 {
   padding-bottom: 80px;
 }
 
-.header-body .btn-group,
+.header-body,
+.btn-group,
 .sponsor-body h2,
 .footer-body,
 .tab-content .testimonial-img,
@@ -132,7 +137,7 @@ h3 {
 .sponsors-logo {
   margin-bottom: 50px;
 }
-.btn-group,
+/*.btn-group,*/
 .our-featured-speaker-right p,
 .footer-body,
 .about-our-event-left p,
@@ -398,6 +403,8 @@ h3 {
   color: #FFFFFF;
 }
 .heading h2 {
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -406,7 +413,7 @@ h3 {
 }
 .pera p {
   color: #FFFFFF;
-  text-align: justify;
+  text-align: left;
 }
 .buy-ticket .btn-group .btn-fill {
   color: #FFFFFF;
@@ -440,12 +447,12 @@ h3 {
   margin-bottom: 20px !important;
 }
 .about-our-event-right .time .counter {
-  font-family: 'Montserrat, sans-serif';
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 35px;
   color: white;
 }
 .about-our-event-right .time .title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 16px;
   color: white;
 }
@@ -463,7 +470,7 @@ h3 {
   overflow: hidden;
 }
 .about-background-image .background-right {
-  background-image: url('../images/neyland4.jpg');
+  background-image: url('../images/ayres.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 0;
@@ -508,6 +515,10 @@ h3 {
  *  
  *  
  */
+.schedule-title {
+    text-align: center;
+    color: white;
+}
 .schedule-body {
     text-align: center;
     color: white;
@@ -589,36 +600,57 @@ h3 {
 
 .venue {
   position: relative;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-.venue-title h2 {
-  text-align: center;
-}
-.venue-body {
-  padding-top: 40px;
-  margin-top: -18px;
 }
 .venue-left {
   padding-left: 10%;
   padding-right: 10%;
 }
+.venue-left h2 {
+  margin-top: -12px;
+}
 .venue-left p {
   color: #60626d;
+}
+.venue-right {
+  overflow: hidden;
 }
 .venue-right .time {
   margin-top: 20px !important;
   margin-bottom: 20px !important;
 }
 .venue-right .time .counter {
-  font-family: 'Montserrat, sans-serif';
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 35px;
-  color: #60626d;
+  color: white;
 }
 .venue-right .time .title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', 'sans-serif;
   font-size: 16px;
-  color: #60626d;
+  color: white;
+}
+.venue-background-image {
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -9;
+}
+.venue-background-image .background-right,
+.venue-background-image .background-left {
+  overflow: hidden;
+}
+.venue-background-image .background-right {
+  background-image: url('../images/mk1.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 0;
+  padding-right: 0;
+}
+.background-right-overlay-color {
+  height: 100%;
+  width: 100%;
 }
 
 /*
