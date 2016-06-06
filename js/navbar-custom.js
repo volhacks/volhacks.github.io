@@ -77,7 +77,7 @@
             offset: -Math.abs($('#header-navbar').height())
         });
 
-        /* SUBCRIBE  BUTTON SCROLL FROM HOME PAGE */
+        /* SUBCRIBE BUTTON SCROLL FROM HOME PAGE */
         $('.btn-scroll').localScroll({
             offset: -Math.abs($('#header-navbar').height())
         });
