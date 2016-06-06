@@ -106,24 +106,15 @@
         /*********************************************************/
         fullscreen_home();
 
-
         /**********************************************************/
         /* About Our Event Left Height                            */
         /**********************************************************/
         aboutOurEventLeft();
 
-
-        /**********************************************************/
-        /* Venue Right Height                                     */
-        /**********************************************************/
-        //venueRight();
-
-
         /*********************************************************/
         /* COLLAPSE LEFT HEIGHT                                  */
         /*********************************************************/
         collapseLeft();
-        
 
         /*********************************************************/
         /*   schedule SECTION MOBILE VIEW                         */
@@ -141,31 +132,10 @@
         /**********************************************************/
         /*   ...  */
         /**********************************************************/
-        var top = Math.max($(window).height() / 2 - $("#header-body")[0].offsetHeight / 2, 0);
+        /*var top = Math.max($(window).height() / 2 - $("#header-body")[0].offsetHeight / 2, 0);
         $("#header-body").css('padding-top', top + "px").css('padding-bottom', (top - $('#header-navbar ').height()) + "px");
         $("#header-body").css('position', 'relative');
-
-
-
-        /**********************************************************/
-        /* CAROUSEL SLIDER                                        */
-        /**********************************************************/ 
-        var owl = $("#slider");
-
-        /* TESTIMONIAL SYNC WITH CLIENTS */
-        owl.owlCarousel({
-            items : 4, //10 items above 1000px browser width
-            itemsDesktop : [1190, 3], //5 items between 1000px and 901px
-            itemsDesktopSmall     : [992,3], // 3 items betweem 992px and 769px
-            itemsTablet       : [768,2], // 3 items between 768 and 601
-            itemsTabletSmall       : [480,1], // 2 items in widen mobile device
-            itemsMobile       : [320,1], // 1 items in any small mobile device
-            pagination:true,
-            responsiveRefreshRate : 100
-        });
-
-
-
+        */
 
         /*********************************************************/
         /*   schedule SECTION MOBILE VIEW                         */
@@ -208,19 +178,10 @@
         /**********************************************************/
         aboutOurEventLeft();
 
-
-        /**********************************************************/
-        /* Venue Right Height                                     */
-        /**********************************************************/
-        //venueRight();
-
-
         /**********************************************************/
         /* MAP HEIGHT                                             */
         /**********************************************************/
         contactUsBody();
-
-
 
 
         /*********************************************************/
@@ -243,16 +204,6 @@
         /* FULLSCREEN HOME FUNCTION                               */
         /**********************************************************/
         fullscreen_home();
-
-
-
-        /**********************************************************/
-        /* PARALLAX                                               */
-        /**********************************************************/
-        $(window).stellar({
-            horizontalScrolling: false 
-        });
-
 
 
 
@@ -311,26 +262,6 @@
           )
           document.querySelector('head').appendChild(msViewportStyle)
         }
-
-
-
-
-        /***********************************************************/
-        /* TESTIMONIAL SYNC WITH CLIENTS                           */
-        /***********************************************************/
-        $("#sync").owlCarousel({
-            pagination: false,
-            autoPlay : 3000,
-            stopOnHover : true,
-            navigation: false,
-            paginationSpeed : 1000,
-            goToFirstSpeed : 2000,
-            singleItem : true,
-            autoHeight : true,
-            transitionStyle:"fade"
-        });
-
-
     });
 
 

@@ -35,10 +35,10 @@
     margin-bottom: 40px;
   }
   .count_down .time .counter {
-    font-size: 35px;
+    font-size: 70px;
   }
   .count_down .time .title {
-    font-size: 10px;
+    font-size: 20px;
   }
   /*
  ********************************
@@ -68,6 +68,12 @@
   }
   .btn-group .btn-cus {
     float: none;
+  }
+  .count_down .time .counter {
+    font-size: 40px;
+  }
+  .count_down .time .title {
+    font-size: 18px;
   }
   /*
 	 ********************************

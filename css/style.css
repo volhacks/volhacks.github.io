@@ -65,7 +65,6 @@ h3 {
   font-weight: 300;
   line-height: 42px;
 }
-.btn-group,
 .our-featured-speaker-right p,
 .about-our-event-left p,
 .social-icon,
@@ -125,14 +124,13 @@ h3 {
 }
 
 .header-body,
-.btn-group,
 .sponsor-body h2,
 .footer-body,
 .tab-content .testimonial-img,
 .contact-us-left h2,
 .collapse-right h2,
 .schedule-main,
-.table-single .btn-group .btn-cus,
+.table-single,
 .twitter-logo,
 .sponsors-logo {
   margin-bottom: 50px;
@@ -375,6 +373,7 @@ h3 {
   margin-top: 80px;
   overflow: hidden;
   float: none;
+  padding-top: 80px;
 }
 .count_down .custom {
   border-right: 1px solid #D0D0CF;
@@ -384,7 +383,7 @@ h3 {
 }
 .time .counter {
   color: white;
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
   display: block;
@@ -396,7 +395,7 @@ h3 {
   font-weight: lighter;
   display: block;
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
 }
 .heading h1 {
   text-transform: uppercase;
@@ -430,8 +429,8 @@ h3 {
   position: relative;
 }
 .about-our-event-left {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .about-our-event-left h2 {
   margin-top: -12px;
@@ -602,8 +601,8 @@ h3 {
   position: relative;
 }
 .venue-left {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .venue-left h2 {
   margin-top: -12px;
@@ -624,7 +623,7 @@ h3 {
   color: white;
 }
 .venue-right .time .title {
-  font-family: 'Montserrat', 'sans-serif;
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 16px;
   color: white;
 }
