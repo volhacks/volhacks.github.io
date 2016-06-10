@@ -740,6 +740,10 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.register-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
 .register-body h3 {
   color: #FFFFFF;
   text-align: center;

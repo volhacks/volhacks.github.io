@@ -2,14 +2,14 @@
 /*
  ********************************
  *
- *  Defult CSS
+ *  Default CSS
  */
 .overlay-color {
   background-color: rgba(0, 0, 0, 0.65);
 }
 .btn-group .btn-fill {
-  background: #2197A9 !important;
-  border-color: #2197A9 !important;
+  background: #72cddb !important;
+  border-color: #72cddb !important;
 }
 .btn-group .btn-fill:hover,
 .btn-group .btn-fill:focus,
@@ -25,6 +25,15 @@
   background: #FF8200 !important;
   border-color: #FF8200 !important;
 }
+a {
+    color: #72cddb !important;
+}
+a:hover {
+    color: #72cddb !important;
+}
+.register-header {
+    color: #72cddb !important;
+}
 /*
  ********************************
  *
@@ -32,7 +41,7 @@
  *  
  */
 .header-navbar #myNavbar .active > a {
-  border-bottom-color: #2197A9;
+  border-bottom-color: #72cddb;
 }
 /*
  ********************************
@@ -41,7 +50,7 @@
  *  
  */
 .about-our-event-left h2 {
-  color: #2197A9;
+  color: #72cddb;
 }
 .background-right-overlay-color {
   background: rgba(255, 130, 0, 0.70);
@@ -49,28 +58,28 @@
 /*
  ********************************
  *
- *  our featured speaker CSS
+ *  Our Featured Speaker CSS
  *  
  */
 .our-featured-speaker-right h2 {
-  color: #2197A9;
+  color: #72cddb;
 }
 /*
  ********************************
  *
- *  schedule CSS
+ *  Schedule CSS
  *  
  */
 .schedule-main .active .btn-border {
-  background: #2197A9;
-  border-color: #2197A9;
+  background: #72cddb;
+  border-color: #72cddb;
 }
 .nav-cus .active a {
-  border-left-color: #2197A9 !important;
+  border-left-color: #72cddb !important;
 }
 .nav-cus a:focus,
 .nav-cus a:hover {
-  border-left-color: #2197A9 !important;
+  border-left-color: #72cddb !important;
 }
 /*
  ********************************
@@ -79,7 +88,7 @@
  *  
  */
 .venue-left h2 {
-  color: #2197A9;
+  color: #72cddb;
 }
 .background-left-overlay-color {
   background: rgba(255, 130, 0, 0.70);
@@ -91,10 +100,10 @@
  *  
  */
 .table-single p {
-  background: #2197A9;
+  background: #72cddb;
 }
 .pricing-tables-left .active .btn-border {
-  border-color: #2197A9;
+  border-color: #72cddb;
 }
 /*
  ********************************
@@ -103,7 +112,7 @@
  *  
  */
 .input-group .btn-fill {
-  background-color: #2197A9;
+  background-color: #72cddb;
 }
 .input-group .btn-fill:hover {
   background-color: #FF8200;
@@ -116,7 +125,7 @@
  *  id: "section-7"
  */
 .sponsor-body h2 {
-  color: #2197A9;
+  color: #72cddb;
 }
 /*
  ********************************
@@ -125,11 +134,11 @@
  *  
  */
 .collapse-right h2 {
-  color: #2197A9;
+  color: #72cddb;
 }
 .collapse-right .panel-title a .bar,
 .collapse-right .panel-title a .bar:after {
-  border-color: #2197A9;
+  border-color: #72cddb;
 }
 /*
  ********************************
@@ -138,10 +147,10 @@
  *  
  */
 .testimonial-body .tab-content .active h3 {
-  color: #2197A9;
+  color: #72cddb;
 }
 .testimonial-body .nav-cus .active a {
-  border-left-color: #2197A9 !important;
+  border-left-color: #72cddb !important;
 }
 /*
  ********************************
@@ -150,17 +159,17 @@
  *  
  */
 .contact-us-left h2 {
-  color: #2197A9;
+  color: #72cddb;
 }
 .contact-us-left p a:hover,
 .contact-us-left p a:active,
 .contact-us-left p a:focus {
-  color: #2197A9;
+  color: #72cddb;
 }
 .social-icon a:hover,
 .social-icon a:focus,
 .social-icon a:active {
-  background: #2197A9 !important;
+  background: #72cddb !important;
 }
 /*
 ******************************************
@@ -169,33 +178,7 @@
 *  
 */
 footer .btn-top:hover {
-  color: #2197A9;
-}
-/************************************************
-*
-*   Blog Page css START here
-*
-*************************************************/
-/*
- ********************************
- *
- *  Blog Body CSS
- *  
- */
-/*     blog-post CSS     */
-.blog-body .post-date {
-  color: #2197A9;
-}
-.comments span {
-  color: #2197A9;
-}
-aside ul li a:hover,
-aside ul li a:focus {
-  color: #FF8200;
-}
-aside ul li a:hover span,
-aside ul li a:focus span {
-  color: #FF8200;
+  color: #72cddb;
 }
 /******************************************/
 /*  Media screen                          */
@@ -204,25 +187,25 @@ aside ul li a:focus span {
   /*
      ********************************
      *
-     *  schedule CSS
+     *  Schedule CSS
      *  
      */
   .dropdown .label:hover,
   .dropdown ul li:hover,
   .dropdown .label:hover,
   .dropdown ul li:hover {
-    background: #2197A9;
+    background: #72cddb;
   }
   .dropdown .label:hover {
-    border-color: #2197A9;
+    border-color: #72cddb;
   }
   .nav-cus .active a {
-    color: #2197A9 !important;
-    border-left-color: #2197A9 !important;
+    color: #72cddb !important;
+    border-left-color: #72cddb !important;
   }
   .nav-cus .active .nav-header,
   .nav-cus .active .nav-time {
-    color: #2197A9 !important;
+    color: #72cddb !important;
   }
   /*
      ********************************
@@ -234,11 +217,11 @@ aside ul li a:focus span {
   .testimonial-body .dropdown ul li:hover,
   .testimonial-body .dropdown .label:hover,
   .testimonial-body .dropdown ul li:hover {
-    background: #2197A9;
+    background: #72cddb;
   }
   .testimonial-body .dropdown .label {
-    color: #2197A9;
-    border-color: #2197A9;
+    color: #72cddb;
+    border-color: #72cddb;
   }
 }
 /*
@@ -260,7 +243,7 @@ aside ul li a:focus span {
 *    
 */
 .nicescroll-rails > div {
-  background-color: #2197A9 !important;
+  background-color: #72cddb !important;
 }
 /*
 ******************************************
@@ -270,8 +253,8 @@ aside ul li a:focus span {
 */
 a.next:hover,
 a.prev:hover {
-  background-color: #2197A9 !important;
-  border-color: #2197A9;
+  background-color: #72cddb !important;
+  border-color: #72cddb;
 }
 /*
 ******************************************
