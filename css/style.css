@@ -67,11 +67,14 @@ h3 {
 }
 .our-featured-speaker-right p,
 .about-our-event-left p,
+.venue-left p,
 .social-icon,
 .twitter-posts-body p .our-featured-speaker-body,
 .sponsor-body,
 .about-our-event-left-body,
 .about-our-event-right-body,
+.venue-left-body,
+.venue-right-body,
 .testimonial-body,
 .contact-us-left,
 .collapse-right,
@@ -135,11 +138,12 @@ h3 {
 .sponsors-logo {
   margin-bottom: 50px;
 }
-/*.btn-group,*/
+.btn-group,
 .our-featured-speaker-right p,
+.venue-left p,
 .footer-body,
 .about-our-event-left p,
-    .social-icon,
+.social-icon,
 .twitter-posts-body p {
   margin-top: 50px;
 }
@@ -469,7 +473,6 @@ h3 {
   overflow: hidden;
 }
 .about-background-image .background-right {
-  background-image: url('../images/ayres.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 0;
@@ -478,6 +481,12 @@ h3 {
 .background-right-overlay-color {
   height: 100%;
   width: 100%;
+}
+.background-image-ayres {
+    background-image: url('../images/ayres.jpg');
+}
+.background-image-mk1 {
+    background-image: url('../images/mk4.JPG');
 }
 /*
  ********************************
@@ -589,71 +598,6 @@ h3 {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
-/*
- ********************************
- *
- *  Venue CSS
- *  
- *  
- */
-
-.venue {
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-.venue-left {
-  padding-left: 3%;
-  padding-right: 3%;
-}
-.venue-left h2 {
-  margin-top: -12px;
-}
-.venue-left p {
-  color: #60626d;
-}
-.venue-right {
-  overflow: hidden;
-}
-.venue-right .time {
-  margin-top: 20px !important;
-  margin-bottom: 20px !important;
-}
-.venue-right .time .counter {
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 35px;
-  color: white;
-}
-.venue-right .time .title {
-  font-family: 'Montserrat', 'sans-serif';
-  font-size: 16px;
-  color: white;
-}
-.venue-background-image {
-  background-color: #ffffff;
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -9;
-}
-.venue-background-image .background-right,
-.venue-background-image .background-left {
-  overflow: hidden;
-}
-.venue-background-image .background-right {
-  background-image: url('../images/mk1.JPG');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-left: 0;
-  padding-right: 0;
-}
-.background-right-overlay-color {
-  height: 100%;
-  width: 100%;
-}
-
 /*
  ********************************
  *
