@@ -19,36 +19,6 @@ $(function(){
 
 
 
-    /***************************************************************************/
-    /* CUSTOMIZABLE SCROLLBAR */
-    /***************************************************************************/
-    $("html").niceScroll({
-      mousescrollstep: 40,
-      cursorcolor: "#00B3FE",
-      zindex: 9999,
-      cursorborder: "none",
-      cursorwidth: "6px",
-      cursorborderradius: "none"
-    });
-
-
-
-
-
-   
-
-
-
-    /**********************************************************/
-    /* PARALLAX                                               */
-    /**********************************************************/
-    /*$(window).stellar({
-        horizontalScrolling: false 
-    });
-    */
-
-
-
 
     /**************************************************************************/
     /*  Bootstrap Internet Explorer 10 in Windows 8 and Windows Phone 8 FIX   */
