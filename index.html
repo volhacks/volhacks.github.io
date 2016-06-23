@@ -78,6 +78,17 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+        
+        <script type="text/javascript">
+			function eventbriteLoaded() {
+				var iFrame = document.getElementById('eventbrite-frame');
+				
+				if(iFrame) {
+					iFrameID.height = "";
+					iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+      			}   
+  			}
+		</script>
 
     </head>
     <body>
@@ -845,17 +856,6 @@
         <script src="https://maps.google.com/maps/api/js?key=AIzaSyDIKaaiYotWlApNPfUxS4bXIXJsfWbWCZc"></script>
         <script src="js/navbar-custom.js"></script>
         <script src="js/custom.js"></script>
-
-		<script type="text/javascript">
-			function eventbriteLoaded() {
-				var iFrame = document.getElementById('eventbrite-frame');
-				
-				if(iFrame) {
-					iFrameID.height = "";
-					iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
-      			}   
-  			}
-		</script>  
     
     </body>
 </html>
