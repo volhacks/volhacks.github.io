@@ -221,8 +221,8 @@ h3 {
  ********************************
  *
  *  Header CSS
- *  
- *  
+ *
+ *
  */
 .header-background {
   background: url('../images/tb.jpg') top center fixed;
@@ -425,8 +425,8 @@ h3 {
  ********************************
  *
  *  About Our Event CSS
- *  
- *  
+ *
+ *
  */
 
 .about-our-event {
@@ -471,6 +471,7 @@ h3 {
 .about-background-image .background-right,
 .about-background-image .background-left {
   overflow: hidden;
+  height: 100%;
 }
 .about-background-image .background-right {
   background-size: cover;
@@ -492,8 +493,8 @@ h3 {
  ********************************
  *
  *  our featured speaker CSS
- *  
- *  
+ *
+ *
  */
 .our-featured-speaker {
   background: #f5f6f8;
@@ -520,8 +521,8 @@ h3 {
  ********************************
  *
  *  schedule CSS
- *  
- *  
+ *
+ *
  */
 .schedule-title {
     text-align: center;
@@ -602,8 +603,8 @@ h3 {
  ********************************
  *
  *  Pricing Tables CSS
- * 
- *  
+ *
+ *
  */
 .pricing-tables {
   background: #ffffff;
@@ -676,8 +677,8 @@ h3 {
  ********************************
  *
  *  Register CSS
- * 
- * 
+ *
+ *
  */
 .register-background {
   background: url('../images/mk2.JPG') top center fixed;
@@ -769,7 +770,7 @@ h3 {
  ********************************
  *
  *  sponsor CSS
- *  
+ *
  */
 .sponsor {
   background: #ffffff;
@@ -808,8 +809,8 @@ h3 {
  ********************************
  *
  *  Collapse CSS
- *  
- *  
+ *
+ *
  */
 .collapse-area {
   background: #f5f6f8;
@@ -920,8 +921,8 @@ h3 {
  ********************************
  *
  *  Testimonial CSS
- *  
- *  
+ *
+ *
  */
 .testimonial {
   background: #ffffff;
@@ -958,8 +959,8 @@ h3 {
  ********************************
  *
  *  Twitter Posts
- *  
- *  
+ *
+ *
  */
 .twitter-background {
   background: url('../images/ayres.jpg') top center fixed;
@@ -1006,8 +1007,8 @@ h3 {
  ********************************
  *
  *  Contact Us CSS
- *  
- *  
+ *
+ *
  */
 .contact-us {
   position: relative;
@@ -1125,7 +1126,7 @@ footer .btn-top:hover {
  ********************************
  *
  *  header CSS
- *  
+ *
  */
 .blog-header .heading h1 {
   text-transform: capitalize;
@@ -1137,7 +1138,7 @@ footer .btn-top:hover {
  ********************************
  *
  *  Blog Body CSS
- *  
+ *
  */
 /*     blog-post CSS     */
 .blog-body {
@@ -1254,7 +1255,7 @@ aside .cate-all {
 ******************************************
 *
 *   OWL CAROUSEL CUSTOM CSS
-*    
+*
 */
 .owl-carousel {
   display: block !important;
@@ -1286,7 +1287,7 @@ aside .cate-all {
 ******************************************
 *
 *   FLEX SLIDER CSS
-*    
+*
 */
 a.next,
 a.prev {

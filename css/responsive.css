@@ -15,7 +15,7 @@
 	 ********************************
 	 *
 	 *  Header CSS
-	 *  
+	 *
 	 */
   .header-navbar .navbar-toggle {
     padding: 0px;
@@ -44,7 +44,7 @@
  ********************************
  *
  *  Collapse CSS
- *  
+ *
  */
   .panel-collapse .panel-body {
     margin-left: 0px !important;
@@ -79,7 +79,7 @@
 	 ********************************
 	 *
 	 *  Header CSS
-	 *  
+	 *
 	 */
   .navbar-fixed-top {
     position: relative;
@@ -115,16 +115,26 @@
 	********************************
 	*
 	*  our featured speaker CSS
-	*  
+	*
 	*/
   .our-featured-speaker-left {
     margin-bottom: 80px;
   }
   /*
+	********************************
+	*
+	*  About Background Image CSS
+	*
+	*/
+  .about-background-image .background-right,
+  .about-background-image .background-left {
+    height: 50%;
+  }
+  /*
 	 ********************************
 	 *
 	 *  schedule CSS
-	 *  
+	 *
 	 */
   .tab-content .tab-pane p {
     display: block;
@@ -229,7 +239,7 @@
 	 ********************************
 	 *
 	 *  Testimonial CSS
-	 *  
+	 *
 	 */
   .testimonial-body .dropdown label:hover,
   .testimonial-body .dropdown ul li:hover,
@@ -261,7 +271,7 @@
 	********************************
 	*
 	*  Pricing Tables CSS
-	*  
+	*
 	*/
   .table-single .btn-group {
     display: inline-block;
@@ -270,7 +280,7 @@
 	 ********************************
 	 *
 	 *  Contact Us CSS
-	 *  
+	 *
 	 */
   .social-icon ul {
     display: inline-block;
@@ -281,7 +291,7 @@
 	******************************************
 	*
 	*   Footer CSS
-	*   
+	*
 	*/
   footer .btn-top {
     padding: 8px 12px 2px 12px;
@@ -297,7 +307,7 @@
 	********************************
 	*
 	*  Blog Body CSS
-	*   
+	*
 	*/
   /*     blog-post CSS     */
   aside ul .title {
@@ -312,7 +322,7 @@
 	********************************
 	*
 	*  header CSS
-	*  
+	*
 	*/
   .blog-header {
     margin-top: 0px;
