@@ -239,17 +239,17 @@ h3 {
   opacity: 0.90 !important;
 }
 .navbar-fixed-top.navbar-home .navbar-header .navbar-brand {
-  padding-top: 14px !important;
+  padding-top: 8px !important;
 }
 .navbar-fixed-top.navbar-home .navbar-header .navbar-brand img {
-  height: 23px !important;
+  height: 40px !important;
   transition: all 0.4s;
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
 }
 .header-navbar {
-  padding-top: 30px;
+  padding-top: 50px;
   transition: all 0.4s;
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -274,7 +274,7 @@ h3 {
   padding-top: 9px;
 }
 .header-navbar .navbar-inverse .navbar-header .navbar-brand img {
-  height: 30px;
+  height: 60px;
   transition: all 0.4s;
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -1074,7 +1074,7 @@ footer .logo {
   margin-top: 12px;
 }
 footer .logo img {
-  height: 50px !important;
+  height: 80px !important;
 }
 footer .btn-top {
   background-color: #3B3938;
