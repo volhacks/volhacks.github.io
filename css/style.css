@@ -776,6 +776,13 @@ h3 {
   background: #ffffff;
 }
 
+.sponsors-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
 .sponsor-header {
     padding-bottom: 30px;
 }
@@ -793,6 +800,7 @@ h3 {
 .sponsor-body img {
   margin: auto;
   width: 150px;
+  max-height: 150px;
 }
 
 .sponsor-body img.grayscale {
