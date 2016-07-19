@@ -169,7 +169,7 @@ a:focus {
   margin-top: 15px;
   padding: 7px 16px;
   border-radius: 100% !important;
-  font-size: 40px;
+  font-size: 60px;
   color: black;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
@@ -204,8 +204,8 @@ a:focus {
     transform: scale(1);
   }
   50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
   }
   100% {
     -webkit-transform: scale(1);
