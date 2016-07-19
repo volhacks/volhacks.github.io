@@ -25,8 +25,14 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #58595B;
+  color: #323335;
 }
+
+h3, h4, h5, h6 {
+	font-weight: 500;
+	color: #58595B;
+}
+
 p {
   margin: 0 0 25px;
   font-size: 18px;
@@ -343,25 +349,51 @@ body {
 	color: #2197A9;
 }
 
+.eureka {
+		color: #579584;
+}
+
 .logo {
 	margin-top: -8px;
 	height: 35px;
 }
 
-.about-photo {
+.wide-photo {
     width: 100%;
-    background: 
-        linear-gradient(
-            rgba(255, 130, 0, 0.7), 
-            rgba(250, 151, 137, 0.6)
-        ),
-    url(../img/about.jpg) no-repeat center center scroll;
-    background-size: cover;
+/*     -webkit-background-size: 80% 100%; */
+/* 	-moz-background-size: 100% 100%; */
+/* 	-o-background-size: 100% 100%; */
+	background-size: inherit;
+}
+
+.wide-photo h3, .wide-photo h2 {
+	color: white !important;
+}
+	
+.about-photo {
+	background: 
+	    linear-gradient(rgba(0, 80, 170, 0.8), rgba(20, 130, 160, 0.6)),
+        url(../img/students.jpg) no-repeat center center scroll;
+}
+
+.venue-photo {
+	background: 
+    	linear-gradient(rgba(255, 130, 0, 0.7), rgba(250, 151, 137, 0.6)),
+        url(../img/mk.jpg) no-repeat center center scroll;
+}
+
+.register-photo {
+	background: 
+    	linear-gradient(rgba(255, 130, 0, 0.7), rgba(250, 151, 137, 0.6)),
+        url(../img/register.jpg) no-repeat center center scroll;
 }
 
 .about-grid {
 	padding-top: 80px;
 	padding-bottom: 40px;
+}
+
+.wide-photo p {
 	color: white;
 }
 
@@ -371,7 +403,7 @@ body {
 }
 
 .about-grid h3 {
-	color: white !important;
 	margin-bottom: 5px;
-	font-size: 30px;
+	font-size: 24px;
 }
+  
