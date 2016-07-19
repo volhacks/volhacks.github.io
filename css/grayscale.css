@@ -1,14 +1,14 @@
 /*!
  * Start Bootstrap - Grayscale v1.1.0 (http://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Licensed under MIT (https://github.com/whiterockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 html {
   width: 100%;
@@ -25,6 +25,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  color: #58595B;
 }
 p {
   margin: 0 0 25px;
@@ -39,7 +40,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #FF8200;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -50,17 +51,17 @@ a:focus {
   color: #1d9b6c;
 }
 .light {
-  font-weight: 400;
+  font-weight: 300;
 }
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid #d0d0d0;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background-color: white;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: black;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
@@ -75,7 +76,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: black;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -99,7 +100,7 @@ a:focus {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .navbar-custom .nav li.active a:hover {
-  color: white;
+  color: black;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -113,8 +114,8 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: white;
+	border-bottom: 1px solid #d0d0d0;
   }
 }
 .intro {
@@ -123,9 +124,9 @@ a:focus {
   height: auto;
   padding: 100px 0;
   text-align: center;
-  color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  color: black;
+/*   background: url(../img/intro-bg.jpg) no-repeat bottom center scroll; */
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -158,10 +159,9 @@ a:focus {
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 2px solid white;
   border-radius: 100% !important;
   font-size: 40px;
-  color: white;
+  color: black;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -170,7 +170,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: white;
+  color: black;
   background: rgba(255, 255, 255, 0.1);
 }
 .btn-circle i.animated {
@@ -179,11 +179,11 @@ a:focus {
   -moz-transition-property: -moz-transform;
   -moz-transition-duration: 1s;
 }
-.btn-circle:hover i.animated {
+.btn-circle i.animated {
   -webkit-animation-name: pulse;
   -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
@@ -223,9 +223,9 @@ a:focus {
 .download-section {
   width: 100%;
   padding: 50px 0;
-  color: white;
+  color: black;
   background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -255,19 +255,19 @@ a:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 3px solid #FF8200;
+  color: #FF8200;
   background-color: transparent;
+  border-radius: 8px !important;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 3px solid #FF8200;
   outline: none;
-  color: black;
-  background-color: #42DCA3;
+  color: white;
+  background-color: #FF8200;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -311,4 +311,37 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+.torch {
+  color: #E45A3B;
+}
+
+.energy {
+  color: #EE3E80;
+}
+
+.orange {
+	color: #FF8200;
+}
+
+.sunsphere {
+	color: #FED535;
+}
+
+.summitt {
+	color: #B9E1E2;
+}
+
+.globe {
+	color: #006C93;
+}
+
+.fountain {
+	color: #2197A9;
+}
+
+.logo {
+	margin-top: -8px;
+	height: 35px;
 }
