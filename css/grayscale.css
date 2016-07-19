@@ -84,7 +84,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #2197A9;
   outline: none;
   background-color: transparent;
 }
