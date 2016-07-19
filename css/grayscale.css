@@ -131,12 +131,13 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: black;
-/*   background: url(../img/intro-bg.jpg) no-repeat bottom center scroll; */
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+    border-bottom: 1px solid #d0d0d0;
+
 }
 .intro .intro-body {
   display: table-cell;
@@ -350,7 +351,7 @@ body {
 }
 
 .eureka {
-		color: #579584;
+		color: #1FBCD2;
 }
 
 .logo {
@@ -384,7 +385,7 @@ body {
 
 .register-photo {
 	background: 
-    	linear-gradient(rgba(255, 130, 0, 0.7), rgba(250, 151, 137, 0.6)),
+    	linear-gradient(rgba(9, 93, 73, 0.8), rgba(30, 160, 137, 0.7)),
         url(../img/register.jpg) no-repeat center center scroll;
 }
 
@@ -405,5 +406,35 @@ body {
 .about-grid h3 {
 	margin-bottom: 5px;
 	font-size: 24px;
+}
+
+.icon-header {
+	margin-top: 0;
+	font-size: 30px;	
+}
+
+.wide-photo .btn-default {
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+  border-radius: 8px !important;
+}
+.wide-photo .btn-default:hover,
+.wide-photo .btn-default:focus {
+  border: 3px solid white;
+  outline: none;
+  background-color: white;
+  color: black;
+}
+
+.btn-mentor {
+	border: none !important;
+}
+
+.btn-mentor:hover,
+.btn-mentor:focus {
+	 border: none !important;
+	 background-color: transparent !important;
+	 color: rgba(255, 255, 255, 0.5) !important;
 }
   
