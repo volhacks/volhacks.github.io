@@ -19,7 +19,7 @@
   -webkit-justify-content: center;
   justify-content: center;
 }
-body {
+html {
   overflow-x: hidden !important;
 }
 * {
