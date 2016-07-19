@@ -106,7 +106,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 700;
+  font-weight: 400;
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
@@ -114,6 +114,16 @@ a:focus {
 .navbar-custom a {
   color: black;
 }
+
+.navbar-custom a {
+  color: black;
+}
+
+.logo-text {
+	position: relative;
+	bottom: 2px;
+}
+
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -133,10 +143,10 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.08);
 }
 .navbar-custom .nav li.active a:hover {
-  color: black;
+  color: #2197A9;
 }
 
 @media (min-width: 768px) {
@@ -469,3 +479,8 @@ body {
 	 color: rgba(255, 255, 255, 0.5) !important;
 }
   
+  
+footer p {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: gray;
+}
