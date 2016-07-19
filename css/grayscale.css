@@ -69,7 +69,9 @@ a:focus {
 .navbar-custom .navbar-toggle {
   color: black;
   background-color: rgba(255, 255, 255, 0.2);
-  font-size: 12px;
+  font-size: 20px;
+  margin-top: 1px;
+  margin-bottom: 0px;
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
@@ -108,6 +110,7 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: black;
 }
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -121,7 +124,7 @@ a:focus {
   .navbar-custom.top-nav-collapse {
     padding: 0;
     background: white;
-	border-bottom: 1px solid #d0d0d0;
+	border-bottom: 0.5px solid #d0d0d0;
   }
 }
 .intro {
@@ -355,7 +358,7 @@ body {
 }
 
 .logo {
-	margin-top: -8px;
+	margin-top: -7px;
 	height: 35px;
 }
 
