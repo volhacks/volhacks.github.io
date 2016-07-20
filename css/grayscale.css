@@ -348,6 +348,10 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+  ul.banner-social-buttons li a {
+  	width: 70%;
+  	max-width: 320px;
+  }
 }
 footer {
   padding: 50px 0;
