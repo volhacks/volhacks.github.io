@@ -126,9 +126,9 @@ a:focus {
 }
 
 .navbar-custom .nav li a {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
   color: #2197A9;
@@ -226,9 +226,9 @@ a:focus {
   font-size: 60px;
   color: black;
   background: transparent;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
 }
 .btn-circle:hover,
 .btn-circle:focus {
@@ -314,19 +314,19 @@ a:focus {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .btn-default {
-  border: 3px solid #FF8200;
+  border: 2px solid #FF8200;
   color: #FF8200;
   background-color: transparent;
   border-radius: 8px !important;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 3px solid #FF8200;
+  border: 2px solid #FF8200;
   outline: none;
   color: white;
   background-color: #FF8200;
