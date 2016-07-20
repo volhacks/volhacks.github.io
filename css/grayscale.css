@@ -430,7 +430,7 @@ body {
 	
 	background-size: cover !important;
 	background-position: center center !important;
-	background-attachment: scroll;
+	background-attachment: fixed;
 }
 
 .wide-photo h3, .wide-photo h2 {
