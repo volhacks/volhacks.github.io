@@ -414,9 +414,9 @@ body {
 
 .wide-photo {
     width: 100%;
-/*     -webkit-background-size: 80% 100%; */
-/* 	-moz-background-size: 100% 100%; */
-/* 	-o-background-size: 100% 100%; */
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
 
@@ -499,6 +499,10 @@ footer p {
 
 /* Sponsors */
 
+#sponsors {
+	margin-bottom: -50px;
+}
+
 .sponsor-section {
 	width: 100%;
 	padding-bottom: 0px;
@@ -547,4 +551,43 @@ footer p {
 	.partners img {
 		width: 10%;
 	}
+}
+
+.card {
+	text-align: left;
+	border: 0.5px solid #d0d0d0;
+	border-radius: 8px;
+	padding-bottom: 0px;
+	padding-top: 35px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.card h4 {
+	margin-bottom: 10px;
+}
+
+.card p {
+	font-size: 16px;
+	color: #323335;
+}
+
+.card ul {
+	margin-top: -20px;;
+	color: #323335;
+	font-size: 16px;
+}
+
+#faq {
+	width: 100%;
+	background: linear-gradient(rgba(0, 80, 170, 0.8), rgba(20, 130, 160, 0.6));
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: white;
+}
+
+#faq h2 {
+	color: white;
 }
