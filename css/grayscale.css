@@ -463,7 +463,14 @@ body {
 
 .icon-header {
 	margin-top: 0;
-	font-size: 30px;	
+	font-size: 20px;	
+}
+
+@media (min-width: 492px) {
+	.icon-header {
+		margin-top: 0;
+		font-size: 32px;	
+	}
 }
 
 .wide-photo .btn-default {
