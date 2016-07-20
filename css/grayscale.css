@@ -417,12 +417,20 @@ body {
 }
 
 .wide-photo {
+
     width: 100%;
+
+/*
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-attachment: scroll !important;
+*/
+
+	
+	background-size: cover !important;
+	background-position: center center !important;
+	background-attachment: scroll;
 }
 
 .wide-photo h3, .wide-photo h2 {
@@ -432,19 +440,19 @@ body {
 .about-photo {
 	background: 
 	    linear-gradient(rgba(0, 80, 170, 0.8), rgba(20, 130, 160, 0.6)),
-        url(../img/students.jpg) no-repeat center center fixed;
+        url(../img/students.jpg);
 }
 
 .venue-photo {
 	background: 
     	linear-gradient(rgba(255, 130, 0, 0.7), rgba(250, 151, 137, 0.6)),
-        url(../img/mk.jpg) no-repeat center center fixed;
+        url(../img/mk.jpg);
 }
 
 .register-photo {
 	background: 
     	linear-gradient(rgba(9, 80, 63, 0.8), rgba(30, 120, 100, 0.7)),
-        url(../img/register.jpg) no-repeat center center fixed;
+        url(../img/register.jpg);
 }
 
 .about-grid {
