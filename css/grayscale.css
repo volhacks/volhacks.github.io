@@ -501,24 +501,25 @@ footer p {
 
 .sponsor-section {
 	width: 100%;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
+	padding-bottom: 0px;
+	margin-bottom: 50px;
 	border-bottom: 0.5px solid #d7d7d7;
+}
+
+.sponsor-section img {
+	margin: 5%;
 }
 
 .flagship img, .diamond img, .rose-gold img {
 	width: 70%;
-	margin: 5%;
 }
 
 .gold img, .silver img, .bronze img {
 	width: 39%;
-	margin: 5%;
 }
 
 .partners img {
 	width: 22%;
-	margin: 5%;
 }
 
 @media (min-width: 768px) {
@@ -529,26 +530,21 @@ footer p {
 	
 	.diamond img {
 		width: 30%;
-		margin: 5%;
 	}
 	
 	.rose-gold img {
 		width: 24%;
-		margin: 5%;
 	}
 	
 	.gold img {
 		width: 15%;
-		margin: 5%;
 	}
 	
 	.silver img, .bronze img {
 		width: 14%;
-		margin: 5%;
 	}
 	
 	.partners img {
 		width: 10%;
-		margin: 5%;
 	}
 }
