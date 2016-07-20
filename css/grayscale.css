@@ -479,13 +479,13 @@ body {
 
 .wide-photo .btn-default {
   color: white;
-  border: 3px solid white;
+  border: 2px solid white;
   background-color: transparent;
   border-radius: 8px !important;
 }
 .wide-photo .btn-default:hover,
 .wide-photo .btn-default:focus {
-  border: 3px solid white;
+  border: 2px solid white;
   outline: none;
   background-color: white;
   color: black;
