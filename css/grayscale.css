@@ -57,6 +57,7 @@ h6 {
 }
 
 h3, h4, h5, h6 {
+	text-transform: none !important;
 	font-weight: 400;
 	color: #58595B;
 }
@@ -89,7 +90,7 @@ a:focus {
 }
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid #d0d0d0;
+  border-bottom: 0.5px solid #d0d0d0;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: white;
@@ -284,7 +285,7 @@ a:focus {
 #map {
   width: 100%;
   height: 200px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 @media (min-width: 767px) {
   .content-section {
@@ -295,7 +296,6 @@ a:focus {
   }
   #map {
     height: 400px;
-    margin-top: 250px;
   }
 }
 .btn {
@@ -426,7 +426,7 @@ body {
 
 .register-photo {
 	background: 
-    	linear-gradient(rgba(9, 93, 73, 0.8), rgba(30, 160, 137, 0.7)),
+    	linear-gradient(rgba(9, 80, 63, 0.8), rgba(30, 120, 100, 0.7)),
         url(../img/register.jpg) no-repeat center center scroll;
 }
 
@@ -484,3 +484,60 @@ footer p {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: gray;
 }
+
+/* Sponsors */
+
+.sponsor-section {
+	width: 100%;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 0.5px solid #d7d7d7;
+}
+
+.flagship img, .diamond img, .rose-gold img {
+	width: 70%;
+	margin: 5%;
+}
+
+.gold img, .silver img, .bronze img {
+	width: 39%;
+	margin: 5%;
+}
+
+.partners img {
+	width: 22%;
+	margin: 5%;
+}
+
+@media (min-width: 768px) {
+
+	.flagship img {
+		width: 80%;
+	}
+	
+	.diamond img {
+		width: 30%;
+		margin: 5%;
+	}
+	
+	.rose-gold img {
+		width: 24%;
+		margin: 5%;
+	}
+	
+	.gold img {
+		width: 15%;
+		margin: 5%;
+	}
+	
+	.silver img, .bronze img {
+		width: 14%;
+		margin: 5%;
+	}
+	
+	.partners img {
+		width: 10%;
+		margin: 5%;
+	}
+}
+
