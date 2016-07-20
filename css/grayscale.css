@@ -417,20 +417,16 @@ body {
 }
 
 .wide-photo {
-
     width: 100%;
-
-/*
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-*/
-
-	
 	background-size: cover !important;
 	background-position: center center !important;
-	background-attachment: fixed !important;
+	background-attachment: scroll !important;
+}
+
+@media (min-width: 492px) {
+	.wide-photo {
+		background-attachment: fixed !important;
+	}
 }
 
 .wide-photo h3, .wide-photo h2 {
@@ -446,7 +442,7 @@ body {
 .venue-photo {
 	background: 
     	linear-gradient(rgba(255, 130, 0, 0.7), rgba(250, 151, 137, 0.6)),
-        url(../img/mk.jpg);
+        url(../img/mk-2.jpg);
 }
 
 .register-photo {
