@@ -150,6 +150,18 @@ a:focus {
   color: #2197A9;
 }
 
+@media(max-width: 991px) {
+	.logo-text {
+		display: none;
+	}
+}
+
+@media(max-width: 767px) {
+	.logo-text {
+		display: inline;
+	}
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -540,4 +552,3 @@ footer p {
 		margin: 5%;
 	}
 }
-
