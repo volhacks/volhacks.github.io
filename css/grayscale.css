@@ -122,7 +122,21 @@ a:focus {
 
 .logo-text {
 	position: relative;
-	bottom: 2px;
+	bottom: 3px;
+}
+
+.nav-line {
+	display: none;
+}
+
+@media(min-width: 768px) {
+  .nav-line {
+	height: 28px;
+	border-left: 1px solid #cad2e0;
+	float: left;
+	display: inherit;
+	margin-top: 11px;
+  }
 }
 
 .navbar-custom .nav li a {
@@ -144,10 +158,15 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(0, 0, 0, 0.08);
+/*   background-color: rgba(0, 0, 0, 0.08); */
+  color: #2197A9;
 }
 .navbar-custom .nav li.active a:hover {
   color: #2197A9;
+}
+
+.nav {
+	padding-right: 60px;
 }
 
 @media(max-width: 991px) {
@@ -606,3 +625,27 @@ footer p {
 #faq h2 {
 	color: white;
 }
+
+@media (min-width: 768px) {
+	#mlh-trust-badge {
+		right: 40px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	#mlh-trust-badge {
+		right: 70px !important;
+	}
+}
+
+#mlh-trust-badge {
+	display:block;
+	max-width:100px;
+	min-width:60px;
+	position:fixed;
+	right:64px;
+	top:0;width:10%;
+	z-index:10000;
+}
+
+
