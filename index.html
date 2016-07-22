@@ -1,884 +1,466 @@
 <!DOCTYPE html>
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html lang="en">
-    <head>
 
-        <title>VolHacks</title>
+<head>
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="VolHacks official website, the University of Tennessee, Knoxville's first ever hackathon, coming in Fall 2016." />
+    <meta name="keywords" content="hackathon, university, tennessee, mlh, code, knoxville" />
+    <meta name="author" content="VolHacks">
 
-        <meta charset="utf-8">
-        <meta name="description" content="VolHacks official website, the University of Tennessee, Knoxville's first ever hackathon, coming in Fall 2016." />
-        <meta name="keywords" content="hackathon, university, tennessee, mlh, code, knoxville" />
-        <meta name="author" content="Jared M. Smith, jaredmichaelsmith.com">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>VolHacks</title>
 
-        <!--   FAV AND TOUCH ICONS   -->
-        <link rel="icon" href="images/favicon.ico">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="icon" href="img/favicon.ico">
 
-        <!-- GOOGLE FONTS -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300|Oswald:400,700|Montserrat:400,700|Lato:400,700' rel='stylesheet" type="text/css">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- BOOTSTRAP CSS -->
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-        <!-- FONT ICONS -->
-        <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
-        <!-- PRELOADER -->
-        <link rel="stylesheet" href="css/preloader.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-        <!-- CAROUSEL SLIDERS -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/owl.theme.css">
-        <link rel="stylesheet" href="css/owl.transitions.css">
+</head>
 
-        <!--  CSS3 ANIMATE CSS  -->
-        <link rel="stylesheet" href="css/animate.css">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-        <!-- IMAGE HOVER EFFECT  -->
-        <link rel="stylesheet" href="css/hover-effect-animate.css" />
-        <link rel="stylesheet" href="css/hover-effect.css" />
+	<a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/gray.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
 
-        <!--   COUSTOM CSS link  -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i><img alt="VolHacks Logo" class="logo" src="img/smokey-logo.png"></i><span class="logo-text"> VolHacks</span>
+                </a>
+                <div class="nav-line"></div>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse  navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#schedule">Schedule</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#register">Register</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sponsors">Sponsors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-        <!-- COLORS -->
-        <link rel="stylesheet" href="css/colors/default.css">
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading"><span class="light orange">Vol</span><span class="eureka">Hacks</span></h1>
+                        <h3>9-30-16 • 10-2-16</h3>
+                        <p class="intro-text">For the first time ever, join us for a weekend of student-driven innovation and collaboration on the hallowed hills of the University of Tennessee, Knoxville.</p>
 
-        <!-- FAVICONS -->
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+                        <ul class="list-inline banner-social-buttons">
+                            <li>
+                            	<a href="#register" class="page-scroll btn btn-default btn-lg"><i class="fa fa-ticket fa-fw"></i> <span class="network-name">Register</span></a>
+                        	</li>
+                            <li>
+                                <a href="//slack.volhacks.org" class="btn btn-default btn-lg"><i class="fa fa-slack fa-fw"></i> <span class="network-name">Join Slack</span></a>
+                            </li>
+                        </ul>
 
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-    </head>
-    <body>
-
-        <!-- PRELOADER -->
-        <div class="spinner-wrapper">
-            <div class="bubblingG">
-                <span id="bubblingG_1"></span>
-                <span id="bubblingG_2"></span>
-                <span id="bubblingG_3"></span>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-down animated"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-         <!-- /END PRELOADER -->
-
-
-        <header class="header-background header" id="header" data-stellar-background-ratio="0.5"> <!--Start: "Header Area"-->
-            <div class="fix header-overlay overlay-color">
-
-                <!-- Start: Navbar Area  -->
-                <div class="header-navbar navbar-fixed-top" id="header-navbar">
-                    <nav class="navbar navbar-inverse">
-                        <div class="container">
-                            <div class="navbar-header">
-
-                                <!-- Show in Mobile -->
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                    <span class="icon-bar icon-close-1"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar icon-close-2"></span>
-                                </button>
-
-                                <!-- Your Icon Goes Here -->
-                                <a class="navbar-brand" href="index.html">
-                                    <img src="images/logo_white.png" class="img-responsive" alt="">
-                                </a>
-
-                            </div>
-
-                            <!-- Show in Desktop -->
-                            <button type="button" class="navbar-toggle navbar-cus hidden-xs " id="navbar-cus">
-                                <span class="lines"></span>
-                            </button>
-
-                            <!-- Navbar Option -->
-                            <div id="myNavbar">
-                                <ul id="navbar-nav" class="myNavbarUl nav navbar-nav navbar-right slideOutRight">
-                                    <li><a href="#header">Home</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#schedule">Schedule</a></li>
-                                    <li><a href="http://www.eventbrite.com/e/volhacks-tickets-25549488207?aff=website" target="_blank">Register</a></li>
-                                    <li><a href="#sponsor">Sponsors and Partners</a></li>
-                                    <li><a href="#faq">FAQ</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-
-                                </ul>
-                            </div>
-                        </div> <!-- End: container  -->
-                    </nav> <!-- End: navbar navbar-inverse  -->
-                </div>
-                <!-- End: Navbar Area  -->
-
-                <div class="container">
-                    <div class="row header-body" id="header-body">
-
-                        <!-- Start: CountDown area -->
-                        <div class="count_down fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        </div>
-                        <!-- End: CountDown area -->
-
-                        <div class="clearfix">
-                        </div>
-
-                        <div class="col-md-offset-1 col-md-5 heading fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <h1><b>VOLHACKS </b></h1>
-                            <h2>9-30-16 &bull; 10-2-16</h2>
-                        </div>
-
-                        <div class="col-md-5 pera fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <p>For the first time ever, join us for a weekend of student-driven innovation and collaboration on the hallowed hills of the University of Tennessee, Knoxville.</p>
-                            <div class="buy-ticket btn-scroll">
-                                <div class="btn-group">
-                                    <a href="#about" class="btn-fill btn-standard btn btn-cus">Learn More</a>
-                                    <a href="http://slack.volhacks.org" class="btn-fill btn-standard btn btn-cus">Join Our Slack!</a>
-                                </div>
-                            </div>
-                        </div><!-- End: col-md-5 pera  -->
-
-                    </div><!-- End: header-body  -->
-                </div> <!-- End: container  -->
-
-            </div> <!-- End: fix header-overlay overlay-color  -->
-        </header> <!--End: Header Area-->
-
-
-        <section class="about-our-event" id="about"><!-- Start: about-our-event, "SECTION-1" -->
-            <div class="container-fluid">
-
-                <!-- Start: About Our Event Area  -->
-                <div class="row about-our-event-body">
-
-                    <!-- Start: About-Our-Event Left Area  -->
-                    <div class="about-our-event-left col-md-6 wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="about-our-event-left-body">
-                            <h2>HACK ON ROCKY TOP</h2>
-                            <p>Over 36 caffeine-filled, sleepless hours, students from both the University of Tennessee and outside the university will brainstorm, build, break, test, and deploy whatever they imagine for the chance to win amazing prizes, while interacting with professional mentors and engineers, meeting recruiters, and listening to great tech talks and tutorials from sponsors. Did we mention there will also be an excess of good southern cooking?</p>
-                            <br>
-                            <div class="buy-ticket btn-scroll">
-                                <div class="btn-group">
-                                    <a href="http://www.eventbrite.com/e/volhacks-tickets-25549488207?aff=website" class="btn-fill btn-standard btn btn-cus">Register</a>
-                                    <a href="#sponsor" class="btn-fill btn-standard btn btn-cus">Sponsor</a>
-                                    <a href="https://www.eventbrite.com/e/volhacks-registration-25549488207?discount=VOLMENTOR" target="_blank" class="btn-fill btn-standard btn btn-cus">Mentor</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End: About-Our-Event Left Area  -->
-
-                    <!-- Start: About-Our-Event Right Area  -->
-                    <div class="about-our-event-right col-md-6 wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="container-fluid">
-                            <div class="row about-our-event-right-body">
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">1</span>
-                                    <span class="title">Venue</span>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">36</span>
-                                    <span class="title">Hours</span>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">600</span>
-                                    <span class="title">Spots</span>
-                                </div>
-                                <!-- Cisco, KEC, Codestock-->
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">6</span>
-                                    <span class="title">Sponsors</span>
-                                </div>
-                                <!-- VandyHacks, COE, EECS, KnoxDevs, KnoxPy, HackUTK, ACM, MLH -->
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">5</span>
-                                    <span class="title">Partners</span>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">&infin;</span>
-                                    <span class="title">mg of Caffeine</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End: About-Our-Event Right Area  -->
-                </div>
-                <!-- End: About Our Event Area  -->
-
-
-                <!-- Start: About-Our-Event Overlay background Area  -->
-                <div class="about-background-image">
-
-                    <!-- About-Our-Event Overlay background Left Area  -->
-                    <div class="background-left col-sm-12 col-md-6"></div>
-
-                    <!-- About-Our-Event Overlay background Right Area  -->
-                    <div class="bg-img-3 background-right background-image-ayres col-sm-12 col-md-6">
-                        <div class="background-right-overlay-color"></div>
-                    </div>
-
-                </div> <!--  about-background-image  -->
-
-            </div> <!-- End: container -->
-        </section> <!-- End: about-our-event, "SECTION-1" -->
-
-        <section class="schedule-background" id="schedule"> <!-- Start: schedule, "SECTION-3" -->
-            <div class="fix overlay-color"> <!-- Start: Overlay color  -->
-                <div class="container schedule">
-                    <div class="row schedule-title">
-                        <div class="col-md-12">
-                            <h2>Schedule</h2>
-                        </div>
-                    </div>
-                    <div class="row schedule-body">
-                        <div class="col-md-4">
-                            <h3>Friday</h3>
-                            <p>TBA</p>
-                        </div>
-                        <div class="col-md-4">
-                            <h3>Saturday</h3>
-                            <p>TBA</p>
-                        </div>
-                        <div class="col-md-4">
-                            <h3>Sunday</h3>
-                            <p>TBA</p>
-                        </div>
-                    </div><!-- End: our-futured-speaker-body   -->
-                </div> <!-- End: container   -->
-            </div> <!-- End: Overlay color   -->
-        </section> <!-- End: schedule, "SECTION-3" -->
-
-        <section class="about-our-event" id="venue"><!-- Start: about-our-event, "SECTION-1" -->
-            <div class="container-fluid">
-
-                <!-- Start: About Our Event Area  -->
-                <div class="row about-our-event-body">
-
-                    <!-- Start: About-Our-Event Left Area  -->
-                    <div class="about-our-event-left col-md-6 wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="about-our-event-left-body">
-                            <h2>THE VENUE</h2>
-                            <p>Finished in 2011, the Min Kao building is one of the newest buildings on campus, with an expansive interior, modern architecture, and ridiculous internet speeds. Home to the Department of Computer Science and Electrical Engineering, Min Kao is a seat of innovation at the university and in the broader city of Knoxville, and on this weekend, it will be home to over 300 hackers building the technology of tomorrow. While you're here, be sure to visit Knoxville and see the Great Smoky Mountains, the US's most visited national park.</p>
-                            <div class="buy-ticket btn-scroll">
-                                <div class="btn-group">
-                                    <a href="http://www.eecs.utk.edu/" target="_blank" class="btn-fill btn-standard btn btn-cus">EECS</a>
-                                    <a href="http://www.visitknoxville.com/" target="_blank" class="btn-fill btn-standard btn btn-cus">Knoxville</a>
-                                    <a href="https://www.nps.gov/grsm/index.htm" target="_blank" class="btn-fill btn-standard btn btn-cus">GSM</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End: About-Our-Event Left Area  -->
-
-                    <!-- Start: About-Our-Event Right Area  -->
-                    <div class="about-our-event-right col-md-6 wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="container-fluid">
-                            <div class="row about-our-event-right-body">
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">150k</span>
-                                    <span class="title">Square Feet</span>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">200+</span>
-                                    <span class="title">Mb/s Wi-Fi Speeds</span>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">&infin;</span>
-                                    <span class="title">access to food and drinks</span>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">1</span>
-                                    <span class="title">mile from downtown Knoxville</span>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">6</span>
-                                    <span class="title">floors of hacking space</span>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 background time">
-                                    <span class="counter style-all">&infin;</span>
-                                    <span class="title">swag</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End: About-Our-Event Right Area  -->
-                </div>
-                <!-- End: About Our Event Area  -->
-
-
-                <!-- Start: About-Our-Event Overlay background Area  -->
-                <div class="about-background-image">
-
-                    <!-- About-Our-Event Overlay background Left Area  -->
-                    <div class="background-left col-sm-12 col-md-6"></div>
-
-                    <!-- About-Our-Event Overlay background Right Area  -->
-                    <div class="bg-img-3 background-right background-image-mk1 col-sm-12 col-md-6">
-                        <div class="background-right-overlay-color"></div>
-                    </div>
-
-                </div> <!--  about-background-image  -->
-
-            </div> <!-- End: container -->
-        </section> <!-- End: about-our-event, "SECTION-1" -->
-
-        <section class="register-background register" id="register"> <!-- Start: Register Area, "#SECTION-6" -->
-            <div class="overlay-color">
-                <div class="container">
-                    <div class="row register-body">
-                        <div class="register-header wow fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <h2>REGISTER</h2><!-- sponsor Heading Goes Here -->
-                        </div>
-                        <div class="buy-ticket btn-scroll">
-                            <div style="width:100%; text-align:left;" ><iframe src="//eventbrite.com/tickets-external?eid=25549488207&ref=etckt" frameborder="0" height="500" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Powered by Eventbrite</a></div></div>
-                        </div>
-                    </div><!-- End: .register-body -->
-                </div><!-- End: .container -->
-            </div> <!-- End: .overlay-color -->
-        </section> <!-- End: Register Area, "#SECTION-6" -->
-
-
-
-        <section class="sponsor" id="sponsor" ><!-- Start: sponsor Area, "#SECTION-7" -->
-            <div class="container sponsor-body">
-                <div class="row"><!-- Start: sponsor Body Area -->
-
-                    <div class="col-md-12 sponsor-header wow fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <h2>OUR SPONSORS</h2><!-- sponsor Heading Goes Here -->
-                        <p>Interested in sponsoring us? Reach out at <a href="mailto:sponsor@volhacks.org?cc=jared@volhacks.org,kyle@volhacks.org&subject=VolHacks%20Sponsorship">sponsor@volhacks.org</a>.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Start: Images Area -->
-                    <div class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="sponsors-logo col-md-offset-2 col-md-3">
-                            <a href="http://andersoncei.utk.edu" target="_blank"><img class="img-responsive grayscale" src="images/sponsors/acei.jpg" alt="ACEI"></a>
-                        </div>
-                        <div class="sponsors-logo col-md-3">
-                            <a href="http://www.cadre5.com/" target="_blank"><img class="img-responsive grayscale" src="images/sponsors/cadre5.png" alt="Cadre5"></a>
-                        </div>
-                        <div class="sponsors-logo col-md-3">
-                            <a href="https://www.cirrusinsight.com/" target="_blank"><img class="img-responsive grayscale" src="images/sponsors/cirrus-insight.png" alt="Cirrus Insight"></a>
-                        </div>
-                    </div>
-                </div><!-- Start: sponsor Body Area -->
-
-                <div class="row">
-                    <!-- Start: Images Area -->
-                    <div class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="sponsors-logo col-md-offset-2 col-md-3">
-                            <a href="https://www.cisco.com/" target="_blank"><img class="img-responsive grayscale" src="images/sponsors/cisco.png" alt="Cisco"></a>
-                        </div>
-                        <div class="sponsors-logo col-md-3">
-                            <a href="https://www.hype.com/" target="_blank"><img class="img-responsive grayscale" src="images/sponsors/hype.png" alt="Hype Energy Drink"></a>
-                        </div>
-                        <div class="sponsors-logo col-md-3">
-                            <a href="http://immersacad.com/" target="_blank"><img class="img-responsive grayscale" src="images/sponsors/immersa-cad.png" alt="ImmersaCAD"></a>
-                        </div>
-                    </div>
-                </div><!-- Start: sponsor Body Area -->
-
-            </div><!-- End: .container  -->
-        </section><!-- End: sponsor Area, "#SECTION-7" -->
-
-        <section class="sponsor" id="partner" ><!-- Start: sponsor Area, "#SECTION-7" -->
-            <div class="container sponsor-body">
-
-                <div class="row"><!-- Start: sponsor Body Area -->
-                    <div class="col-md-12 sponsor-header wow fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <h2>OUR PARTNERS</h2><!-- sponsor Heading Goes Here -->
-                    </div>
-                </div>
-
-                <div class="row">
-                    <!-- Start: Images Area -->
-                    <div class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="sponsors-logo col-md-offset-2 col-md-3">
-                            <a href="http://www.eecs.utk.edu" target="_blank"><img class="img-responsive grayscale" src="images/partners/utkeecs.png" alt="UTK EECS"></a>
-                        </div>
-                        <div class="sponsors-logo col-md-3">
-                            <a href="http://www.engr.utk.edu" target="_blank"><img class="img-responsive grayscale" src="images/partners/utkcoe.png" alt="UTK COE"></a>
-                        </div>
-                        <div class="sponsors-logo col-md-3">
-                            <a href="http://www.vandyhacks.org" target="_blank"><img class="img-responsive grayscale" src="images/partners/vandyhacks.png" alt="VandyHacks"></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <!-- Start: Images Area -->
-                    <div class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="sponsors-logo col-md-offset-2 col-md-3">
-                            <a href="http://knoxec.com/" target="_blank"><img class="img-responsive grayscale" src="images/sponsors/kec.png" alt="Knoxville Entreprenuer Center"></a>
-                        </div>
-                        <div class="sponsors-logo col-md-3">
-                            <a href="https://hackutk.com" target="_blank"><img class="img-responsive grayscale" src="images/partners/hackutk.png" alt="HackUTK"></a>
-                        </div>
-                        <div class="sponsors-logo col-md-3">
-                            <a href="http://acmutk.com" target="_blank"><img class="img-responsive grayscale" src="images/partners/utkacm.png" alt="UTK ACM"></a>
-                        </div>
-                    </div><!-- End: Images Area -->
-
-                </div><!-- Start: sponsor Body Area -->
-                <div class="row">
-                    <div class="wow fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="sponsors-logo col-md-offset-5 col-md-3">
-                            <a href="http://knoxdevs.com" target="_blank"><img class="img-responsive grayscale" src="images/sponsors/knoxdevs.png" alt="KnoxDevs"></a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End: .container  -->
-        </section><!-- End: sponsor Area, "#SECTION-7" -->
-
-        <section class="collapse-area" id="faq"> <!-- Start: Collapse Area, "#SECTION-8" -->
-            <div class="container">
-                <div class="row">
-
-
-                    <!-- Start: Collapse Area Right  -->
-                    <div class="collapse-right col-sm-12 col-md-12">
-
-                        <h2 class="wow fadeInDown animated" data-wow-offset="10" data-wow-duration="1.5s">Frequently Asked Questions</h2><!-- Collapse Title Goes Here  -->
-
-                        <!--  Start: Collapse-tab  -->
-                        <div class="collapse-tab ">
-                            <div class="panel-group" id="accordion">
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel1"><!-- Start: Tab-1 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-1 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
-                                                Who can come?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse in">
-
-                                        <!-- Tab-1 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            All current undergraduate and graduate students at the University of Tennessee, Knoxville are guaranteed spots. Current undergraduate and undergraduate students at other universities are encouraged to register and we will try to accomodate as many attendees as possible.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-1 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel2"><!-- Start: Tab-2 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-1 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
-                                                Will there be free food, drinks, and caffiene?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse">
-
-                                        <!-- Tab-2 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            Yes! Absolutely! We will provide catered meals, drinks at all times, snack breaks, and endless caffiene.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-2 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel3"><!-- Start: Tab-3 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-3 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
-                                                Where do I sleep?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseThree" class="panel-collapse collapse">
-
-                                        <!-- Tab-3 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                           We will have a designated quiet sleeping area on site, and you are encouraged to bring sleeping bags, pillows, toiletries, and anything else you need to sleep. There are not showers at the venue, so please be prepared to go without showering unless you have other accomodations.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-3 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel4"><!-- Start: Tab-4 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-4 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="collapsed">
-                                                How much does it cost?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseFour" class="panel-collapse collapse">
-
-                                        <!-- Tab-4 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            The event is completely free for eligible students (see first question above).
-                                            Absolutely nothing! The event is completely free for eligible and registered students. We will provide you with the venue, food, Wi-Fi, etc. You just need to show up.
-
-
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-4 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel13"><!-- Start: Tab-13 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-13 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" class="collapsed">
-                                                Do I need to stay the entire time?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseThirteen" class="panel-collapse collapse">
-
-                                        <!-- Tab-13 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might have other commitments during that time. Feel free to stay and leave as you choose. However, we would prefer that people stay to promote the environment.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-13 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel5"><!-- Start: Tab-5 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-5 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" class="collapsed">
-                                                Where do I park?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseFive" class="panel-collapse collapse">
-
-                                        <!-- Tab-5 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            If you're on campus already and have a parking permit, park where you would normally park. For attendees coming from other universities, we will distribute information to registred attendees prior to the event regarding where to park.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-5 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel6"><!-- Start: Tab-6 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-6 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" class="collapsed">
-                                               I have never been to a hackathon before, what should I do?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseSix" class="panel-collapse collapse">
-
-                                        <!-- Tab-6 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            No worries at all. We will be providing mentors during the hackathon and running workshops, as well as providing food and drinks and a place to sleep if you don't have one. We will also have a Slack team for anyone to get help at during the hackathon.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-6 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel7"><!-- Start: Tab-7 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-7 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" class="collapsed">
-                                                When and where is VolHacks happening?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseSeven" class="panel-collapse collapse">
-
-                                        <!-- Tab-7 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            VolHacks will take place on September 30th to October 2nd, at the University of Tennessee, Knoxville in the foothills of the Great Smoky Mountains.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-7 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel8"><!-- Start: Tab-8 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-8 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight" class="collapsed">
-                                                But I don't have an idea, what should I do?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseEight" class="panel-collapse collapse">
-
-                                        <!-- Tab-8 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            Don't worry at all! We will walk you through how to brainstorm great ideas at the beginning of VolHacks.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-8 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel9"><!-- Start: Tab-9 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-9 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine" class="collapsed">
-                                                How do teams work?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseNine" class="panel-collapse collapse">
-
-                                        <!-- Tab-9 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            There is a maximum of 4 people per team. Once the idea brainstorming session is done, there will be an open mic and networking time to find a team. Everyone registered will also be invited to the VolHacks Slack team prior to the hackathon in order to network and discuss ideas.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-9 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel10"><!-- Start: Tab-10 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-10 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen" class="collapsed">
-                                               What should I bring?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTen" class="panel-collapse collapse">
-
-                                        <!-- Tab-10 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            You will definitely need your laptop, phone, their chargers, as well as a valid student or government ID. Feel free to also bring along a sleeping bag, and we recommend some comfortable clothes.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-10 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel14"><!-- Start: Tab-13 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-13 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" class="collapsed">
-                                                What kind of things can we make/hack up? What are we limited to making?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseFourteen" class="panel-collapse collapse">
-
-                                        <!-- Tab-13 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            You are *not* limited to what you can make/hack/build for the hackathon EXCEPT for the following restrictions: it cannot be illegal in any way, it cannot go against the MLH code of conduct, it cannot compromise the integrity of the UTK networks, resources, faculty, or staff, and it cannot go against the UTK code of student conduct (find that <a href="http://studentconduct.utk.edu/">here</a>).
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel11"><!-- Start: Tab-11 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-11 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" class="collapsed">
-                                                Is there a Code of Conduct?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseEleven" class="panel-collapse collapse">
-
-                                        <!-- Tab-11 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                            Yes, we abide by the <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">Major League Hacking Code of Conduct</a>.
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-11 -->
-                                <div class="panel panel-default wow fadeInUp animated" data-wow-offset="10" data-wow-duration="1.5s" id="panel12"><!-- Start: Tab-12 -->
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-12 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" class="collapsed">
-                                                More questions?
-                                                <span class="bar hidden-xs"></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwelve" class="panel-collapse collapse">
-
-                                        <!-- Tab-12 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                           Send us an email at <a href="mailto:hello@volhacks.org?cc=jared@volhacks.org,kyle@volhacks.org,elliot@volhacks.org,sam@volhacks.org,will@volhacks.org">hello@volhacks.org</a>
-                                        </div>
-
-                                    </div>
-                                </div><!-- End: Tab-12 -->
-                            </div>
-                        </div><!--  End: .collapse-tab  -->
-                    </div>
-                    <!-- End: Collapse Area Right  -->
-                </div> <!-- End: .row  -->
-            </div> <!-- End: .container  -->
-        </section> <!-- End: Collapse Area, "#SECTION-8" -->
-
-        <section class="twitter-background twitter-posts" id="social"> <!-- End: Twitter Posts Area, "about0" -->
-            <div class="fix overlay-color">
-                <div class="container">
-
-                    <div class="row twitter-posts-body col-md-offset-1 col-md-10 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-
-                        <div class="col-md-12">
-                            <!-- Twitter Logo goes Here  -->
-                            <div class="twitter-logo">
-                                <i class="fa twitter fa-twitter"></i>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-sm-12">
-
-                            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/volhacks" data-widget-id="732777369438543874">Tweets by @volhacks</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-                        </div> <!-- End: .col-md-offset-1 .col-md-10  -->
-
-                        <div class="col-md-6 col-sm-12">
-
-                            <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/volhacks" data-widget-id="732778373877899264">#volhacks Tweets</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-                        </div> <!-- End: .col-md-offset-1 .col-md-10  -->
-
-                    </div> <!-- End: .row .twitter-posts-body -->
-
-
-
-
-                </div> <!-- End: .container  -->
-            </div> <!-- End: .overlay-color  -->
-        </section> <!-- End: Twitter Posts Area, "about0" -->
-
-
-        <section class="contact-us" id="contact"> <!-- Start: Contact Us Area, "about1" -->
-            <div class="container">
-                <div class="row contact-us-body">
-
-                    <div class="contact-us-left col-md-4 wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
-
-                        <h2>Ping Us!</h2>
-                        <p><span class="bold">Address:</span> 1520 Middle Drive, Knoxville, TN 37996</p>
-                        <p><span class="bold">E-Mail: </span><a href="mailto:hello@volhacks.org">hello@volhacks.org</a></p>
-
-                        <!-- Social Icon Goes Here  -->
-                        <div class="social-icon">
-                            <p><span class="bold">Find Us On:</span></p>
-                            <ul class="nav navbar-left">
-                                <li><a href="https://twitter.com/volhacks" target="_blank"> <i class="fa twitter fa-twitter"></i></a></li>
-                                <li><a href="https://github.com/volhacks" target="_blank"> <i class="fa github fa-github"></i></a></li>
-                                <li><a href="https://facebook.com/volhacks" target="_blank"> <i class="fa facebook fa-facebook"></i></a></li>
-                                <li><a href="https://instagram.com/volhacks" target="_blank"> <i class="fa instagram fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-
-                    </div> <!-- End: .contact-us-left .col-md-4  -->
-
-                    <!-- Start: Google Map Area, "Part-1-Up" "map" -->
-                    <div class="contact-us-right col-md-offset-1 col-md-7 wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="row">
-                            <div class="map" id="map">
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End: Google Map Area, "map" -->
-
-                </div> <!-- End: .row .contact-us-body  -->
-            </div> <!--  End: .container  -->
-        </section> <!-- End: Contact Us Area, "about1" -->
-
-
-
-        <footer class="footer"> <!-- Start: Footer Area  -->
-            <div class="container">
-                <div class="row footer-body btn-scroll">
-
-                    <!-- Your Icon Goes Here  -->
-                    <div class="logo col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <a href="#" ><img src="images/logo_white.png" alt="" class="img-responsive"></a>
-                    </div>
-
-                    <!--  Scroll Top  -->
-                    <div class="top-buttom col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                         <a href="#header" class="btn-standard btn btn-top"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
-                    </div>
-
-                </div><!-- End: .row .footer-body .btn-scroll  -->
-            </div> <!-- End: .container  -->
-        </footer> <!-- End: Footer Area  -->
-
-
-        <!-- SCRIPTS -->
-        <script src="js/jquery-1.11.3.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="js/jquery.scrollTo.min.js"></script>
-        <script src="js/jquery.localScroll.min.js"></script>
-        <script src="js/jquery.nav.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/matchMedia.js"></script>
-        <script src="js/navbar.matchMedia.js"></script>
-        <script src="js/jquery.countdown.js"></script>
-        <script src="js/fancySelect.js"></script>
-        <script src="https://maps.google.com/maps/api/js?key=AIzaSyDIKaaiYotWlApNPfUxS4bXIXJsfWbWCZc"></script>
-        <script src="js/navbar-custom.js"></script>
-        <script src="js/custom.js"></script>
-    </body>
+    </header>
+
+    <!-- About Section -->
+    <div id="about">
+    <section class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Hack On Rocky Top</h2>
+                <p>During 36 caffeine-filled, sleepless hours, students from the University of Tennessee and elsewhere will brainstorm, build, break, test, and deploy whatever they can imagine, for the chance to win amazing prizes.
+	                <br><br>There will also be plenty of time to interact with professional mentors and engineers, meet recruiters, and listen to great tech talks and tutorials from sponsors.
+
+<!-- 	                <br><br>Did we mention there will also be an excess of good southern cooking?</p> -->
+
+	                <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="#register" class="page-scroll btn btn-default btn-lg"><i class="fa fa-ticket fa-fw"></i> <span class="network-name">Register</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.eventbrite.com/e/volhacks-registration-25549488207?discount=VOLMENTOR#tickets" target="_blanK" class="btn btn-default btn-lg"><i class="fa fa-users fa-fw"></i> <span class="network-name">Mentor</span></a>
+                        </li>
+                        <li>
+                            <a href="mailto:sponsor@volhacks.org?cc=kyle@volhacks.org,jared@volhacks.org,colin@volhacks.org" class="btn btn-default btn-lg page-scroll"><i class="fa fa-money fa-fw"></i> <span class="network-name">Sponsor</span></a>
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+            </div>
+        </div>
+    </section>
+
+	<section class="about-photo wide-photo container text-center about-grid">
+        <div class="col-sm-3 col-sm-offset-1 col-xs-6">
+            <h3>1</h3>
+            <p>venue</p>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h3>36</h3>
+            <p>hours</p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <h3>400</h3>
+            <p>spots</p>
+        </div>
+        <div class="col-sm-3 col-sm-offset-1 col-xs-6">
+            <h3>8</h3>
+            <p>sponsors</p>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h3>5</h3>
+            <p>partners</p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <h3>∞</h3>
+            <p>mg of caffeine</p>
+        </div>
+	</section>
+
+   	  <!-- About Section -->
+    <section class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>The Venue</h2>
+                <p>The Min Kao building is one of the newest buildings on campus, with an expansive interior, modern architecture, and ridiculous internet speeds. Min Kao houses the Department of Electrical Engineering and Computer Science, and is a hotspot of innovation at the university. This weekend, it will be home to over 300 hackers building the technology of tomorrow.
+<!-- 	                <br><br>While you're here, be sure to visit Knoxville and see the Great Smoky Mountains, the US's most visited national park.</p> -->
+                <br><br><br>
+            </div>
+        </div>
+    </section>
+
+	<section class="venue-photo wide-photo container text-center about-grid">
+        <div class="col-sm-3 col-sm-offset-1 col-xs-6">
+            <h3>150k</h3>
+            <p>square feet</p>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h3>200+</h3>
+            <p>mbs wifi</p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <h3>∞</h3>
+            <p>food and drinks</p>
+        </div>
+        <div class="col-sm-3 col-sm-offset-1 col-xs-6">
+            <h3>1</h3>
+            <p>mile from downtown</p>
+        </div>
+        <div class="col-sm-4 col-xs-6">
+            <h3>6</h3>
+            <p>floors of hacking space</p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+            <h3>∞</h3>
+            <p>swag</p>
+        </div>
+	</section>
+	</div>
+
+	<section id="schedule" class="container text-center about-grid">
+
+        <div class="col-lg-8 col-lg-offset-2">
+         	<h2>Schedule</h2>
+         	<h4>Coming Soon</h4>
+        </div>
+
+<!--
+        <div class="col-sm-4">
+            <h3>Friday</h3>
+            <p>TBD</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Saturday</h3>
+            <p>TBD</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Sunday</h3>
+            <p>TBD</p>
+        </div>
+-->
+        <div class="col-lg-8 col-lg-offset-2">
+<!--             <p>Download the schedule <a href="#">here</a>.</p> Uncomment when it's ready! -->
+        </div>
+   	</section>
+
+
+	<section id="register" class="register-photo wide-photo container content-section text-center">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Register</h2>
+                <p class="icon-header">
+	                <i class="fa fa-ticket fa-fw"></i> <i class="fa fa-arrow-right fa-fw"></i>
+	                <i class="fa fa-car fa-fw"></i> <i class="fa fa-arrow-right fa-fw"></i>
+	                <i class="fa fa-thumbs-up fa-fw"></i> <i class="fa fa-arrow-right fa-fw"></i>
+	                <i class="fa fa-code-fork fa-fw"></i>
+	            </p>
+                <p>Register online to reserve your place! That way, if we fill up, we don't have to give you a thumbs-down after you get here.</p>
+                <a target="_blank" href="//www.eventbrite.com/e/volhacks-registration-25549488207?aff=es2" class="btn btn-default btn-lg"> <i class="fa fa-ticket fa-fw"></i> Register</a>
+                <br><br><br>
+                <a target="_blank" href="https://www.eventbrite.com/e/volhacks-registration-25549488207?discount=VOLMENTOR#tickets" class="btn btn-default btn-mentor">If you're a mentor,<br>click here to register</a>
+                <br><br><br>
+            </div>
+        </div>
+    </section>
+
+	<section id="sponsors" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Sponsors</h2>
+                <p>VolHacks would not be possible without the incredible support of these organizations. If you'd like to get on board, <a href="mailto:sponsor@volhacks.org?cc=kyle@volhacks.org,jared@volhacks.org,colin@volhacks.org">send us an email</a>.</p>
+
+				<br>
+            </div>
+            <div class="col-lg-12">
+	<!--
+	            <div class="flagship sponsor-section">
+		            <h2>Flagship</h2>
+	            </div>
+	-->
+	<!--
+	            <div class="diamond sponsor-section">
+		            <h2>Diamond</h2>
+	            </div>
+	-->
+	            <div class="rose-gold sponsor-section">
+		            <h2>Rose Gold</h2>
+					<a target="_blank" href="https://www.cisco.com"><img alt="Cisco Logo" src="img/sponsors/cisco.png"></a>
+	            </div>
+<!--
+
+	            <div class="gold sponsor-section">
+		            <h2>Gold</h2>
+	            </div>
+-->
+
+	            <div class="silver sponsor-section">
+		            <h2>Silver</h2>
+		            <a target="_blank" href="http://www.cadre5.com"><img alt="Cadre5 Logo" src="img/sponsors/cadre5.svg"></a>
+	            </div>
+
+	            <div class="bronze sponsor-section">
+		            <h2>Bronze</h2>
+
+		            <a target="_blank" href="https://www.hype.com"><img alt="Hype Energy Drinks Logo" src="img/sponsors/hype.png"></a>
+		            <a target="_blank" href="https://www.cirrusinsight.com"><img alt="Currus Insight Logo" src="img/sponsors/insight.png"></a>
+		            <a target="_blank" href="http://immersacad.com"><img alt="ImmersaCAD Logo" src="img/sponsors/immersa-cad.png"></a>
+		            <a target="_blank" href="http://andersoncei.utk.edu"><img alt="The Anderson Center for Entrepreneurship and Innovation Logo" src="img/sponsors/acei.jpg"></a>
+
+	            </div>
+            </div>
+
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Partners</h2>
+<!--                 <p>VolHacks would not be possible without the incredible support of these organizations.</p> -->
+            </div>
+            <div class="col-lg-12">
+
+	            <div class="partners sponsor-section">
+
+		            <a target="_blank" href="https://mlh.io"><img alt="MLH Logo" src="img/partners/mlh-logo.png"></a>
+		            <a target="_blank" href="https://hackutk.com"><img alt="HackUTK Logo" src="img/partners/hackutk.png"></a>
+					<a target="_blank" href="http://acmutk.com"><img alt="ACM UTK Logo" src="img/partners/utkacm.png"></a>
+		            <a target="_blank" href="http://www.eecs.utk.edu"><img alt="UTK EECS Logo" src="img/partners/utkeecs.png"></a>
+		            <a target="_blank" href="http://www.engr.utk.edu"><img alt="UTK COE Logo" src="img/partners/utkcoe.png"></a>
+		            <a target="_blank" href="http://www.vandyhacks.org"><img alt="VandyHacks Logo" src="img/partners/vandyhackslogo.svg"></a>
+		            <a target="_blank" href="http://knoxec.com"><img alt="KEC Logo" src="img/partners/kec.png"></a>
+		            <a target="_blank" href="http://knoxdevs.com"><img alt="KnoxDevs Logo" src="img/partners/knoxdevs.png"></a>
+
+	            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Frequently Asked Questions</h2>
+				<br><br>
+			</div>
+
+            <div class="col-md-10 col-md-offset-1">
+	            <div class="col-md-6 faq-column">
+
+		            <div class="card">
+			            <h4>Who can come?</h4>
+			            <p>All current undergraduate and graduate students at the University of Tennessee, Knoxville are guaranteed spots. Current undergraduate and undergraduate students at other universities are encouraged to register and we will try to accommodate as many attendees as possible.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>Will there be free food, drinks, and caffeine?</h4>
+			            <p>Yes! Absolutely! We will provide catered meals, drinks at all times, snack breaks, and endless caffeine.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>Where do I sleep?</h4>
+			            <p>We will have a designated quiet sleeping area on site, and you are encouraged to bring sleeping bags, pillows, toiletries, and anything else you need to sleep. There are no showers at the venue, so please be prepared to go without showering unless you have other accommodations.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>When and where is VolHacks?</h4>
+			            <p>VolHacks will take place on September 30th to October 2nd, at the University of Tennessee, Knoxville in the foothills of the Great Smoky Mountains.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>I don't know what to build — any ideas?</h4>
+			            <p>Don't worry at all! We will walk you through how to brainstorm great ideas at the beginning of VolHacks.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>How do teams work?</h4>
+			            <p>There is a maximum of 4 people per team. Once the idea brainstorming session is done, there will be an open mic and networking time to find a team. Everyone registered will also be invited to the VolHacks Slack team prior to the hackathon in order to network and discuss ideas.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>Is there a code of conduct?</h4>
+			            <p>Yes, we abide by the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">Major League Hacking Code of Conduct</a>.</p>
+		            </div>
+	            </div>
+	            <div class="col-md-6 faq-column">
+
+		            <div class="card">
+			            <h4>How much does it cost?</h4>
+			            <p>The event is completely free for eligible and registered students. We will provide you with the venue, food, Wi-Fi, etc. You just need to show up!</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>Do I need to stay the entire time?</h4>
+			            <p>Nope, we are not a lock-in. We realize that 36 hours is a long time, and that some people might have other commitments during that time. Feel free to stay and leave as you choose. However, we would prefer that people stay to promote the environment.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>Where do I park?</h4>
+			            <p>If you're on campus already and have a parking permit, park where you would normally park. For attendees coming from other universities, we will distribute information to registered attendees prior to the event regarding where to park.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>I've never been to a hackathon before, what should I do?</h4>
+			            <p>No worries at all. We will be providing mentors during the hackathon and running workshops, as well as providing food and drinks and a place to sleep if you don't have one. We will also have a Slack team for anyone to get help at during the hackathon.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>What should I bring?</h4>
+			            <p>You will definitely need your laptop, phone, their chargers, as well as a valid student or government ID. Feel free to also bring along a sleeping bag, and we recommend some comfortable clothes.</p>
+		            </div>
+
+		            <div class="card">
+			            <h4>What kind of things can we hack up? Are there any limits?</h4>
+			            <p>You are <i>not</i> limited to what you can make, hack, or build for the hackathon EXCEPT for the following restrictions:</p>
+			            <ul>
+				            <li>It cannot be illegal in any way</li>
+				            <li>It cannot go against the MLH code of conduct</li>
+				            <li>It cannot compromise the integrity of the UTK networks, resources, faculty, or staff</li>
+				            <li>It cannot go against the UTK code of student conduct (find that <a href="http://studentconduct.utk.edu" target="_blank">here</a>)</li>
+			            </ul>
+		            </div>
+	            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Reach out!</h2>
+                <p>Feel free to email us about the event, sponsoring us, partnering with us, or with any other questions!</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="http://slack.volhacks.org" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-slack fa-fw"></i> <span class="network-name">Slack</span></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/volhacks" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/volhacks" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                </ul>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://instagram.com/volhacks" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                    </li>
+                    <li>
+                        <a href="mailto:hello@volhacks.org" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-at fa-fw"></i> <span class="network-name">Email</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2015<script>new Date().getFullYear()>2015&&document.write("-"+new Date().getFullYear());</script>, VolHacks.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
 </html>
