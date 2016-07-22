@@ -626,20 +626,26 @@ footer p {
 	color: white;
 }
 
+@media (min-width: 768px) {
+	#mlh-trust-badge {
+		right: 40px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	#mlh-trust-badge {
+		right: 100px !important;
+	}
+}
+
 #mlh-trust-badge {
 	display:block;
 	max-width:100px;
 	min-width:60px;
 	position:fixed;
-	right:70px;
+	right:64px;
 	top:0;width:10%;
 	z-index:10000;
 }
 
-@media (min-width: 768px) {
- 
-	#mlh-trust-badge {
-		right: 40px;
-		width: 5%;
-	}
-}
+
