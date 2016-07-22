@@ -122,7 +122,21 @@ a:focus {
 
 .logo-text {
 	position: relative;
-	bottom: 2px;
+	bottom: 3px;
+}
+
+.nav-line {
+	display: none;
+}
+
+@media(min-width: 768px) {
+  .nav-line {
+	height: 28px;
+	border-left: 1px solid #cad2e0;
+	float: left;
+	display: inherit;
+	margin-top: 11px;
+  }
 }
 
 .navbar-custom .nav li a {
@@ -144,7 +158,8 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(0, 0, 0, 0.08);
+/*   background-color: rgba(0, 0, 0, 0.08); */
+  color: #2197A9;
 }
 .navbar-custom .nav li.active a:hover {
   color: #2197A9;
