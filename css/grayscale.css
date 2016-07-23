@@ -576,11 +576,15 @@ footer p {
 	}
 	
 	.gold img {
-		width: 15%;
+		width: 20%;
 	}
 	
-	.silver img, .bronze img {
-		width: 14%;
+	.silver img {
+		width: 18%;
+	}
+	
+	.bronze img {
+		width: 16%;
 	}
 	
 	.partners img {
