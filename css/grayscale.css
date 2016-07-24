@@ -209,15 +209,15 @@ a:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-    border-bottom: 1px solid #d0d0d0;
-
+  margin-top: 20px;
+  border-bottom: 1px solid #d0d0d0;
 }
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
-  font-size: 40px;
+  font-size: 44px;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
