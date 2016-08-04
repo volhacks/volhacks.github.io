@@ -545,6 +545,12 @@ footer p {
 	margin: 5%;
 }
 
+.partner-section {
+  padding-top: 60px;
+  border-top: 1px solid #d7d7d7;
+  margin-bottom: 80px;
+}
+
 .flagship img, .diamond img, .rose-gold img {
 	width: 70%;
 }
