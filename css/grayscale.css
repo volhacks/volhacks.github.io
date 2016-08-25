@@ -654,4 +654,34 @@ footer p {
 	z-index:10000;
 }
 
+td {
+  border-top: none !important;
+  border-bottom: 1px dotted lightgrey;
+  font-family: Lora, serif;
+  font-size: 18px;
+  vertical-align: middle !important;
+}
 
+td.left {
+  text-align: left;
+  width: 30%;
+  padding-left: 0 !important;
+}
+
+td.middle {
+  text-align: left;
+  width: 50%;
+}
+
+td.right {
+  text-align: right;
+  width: 20%;
+  padding-right: 0 !important;
+  font-variant: small-caps;
+}
+
+.table-header {
+  padding-top: 30px !important;
+  padding-bottom: 15px !important;
+  text-align: left;
+}
