@@ -114,7 +114,7 @@
                                 <a href="https://www.eventbrite.com/e/volhacks-registration-25549488207?discount=VOLMENTOR#tickets" target="_blanK" class="btn btn-default btn-lg"><i class="fa fa-users fa-fw"></i> <span class="network-name">Mentor</span></a>
                             </li>
                             <li>
-                                <a href="mailto:sponsor@volhacks.org?cc=kyle@volhacks.org,jared@volhacks.org,colin@volhacks.org" class="btn btn-default btn-lg page-scroll"><i class="fa fa-money fa-fw"></i> <span class="network-name">Sponsor</span></a>
+                                <a data-toggle="tooltip" data-placement="top" title="We are no longer accepting sponsors for the 2017 season, but please reach out about future sponsorship opportunities!" href="mailto:sponsor@volhacks.org?cc=kyle@volhacks.org,jared@volhacks.org,colin@volhacks.org" class="btn btn-default btn-lg page-scroll"><i class="fa fa-money fa-fw"></i> <span class="network-name">Sponsor</span></a>
                             </li>
                         </ul>
                         <br>
@@ -341,7 +341,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Sponsors</h2>
-                    <p>VolHacks would not be possible without the incredible support of these organizations. If you'd like to get on board, <a href="mailto:sponsor@volhacks.org?cc=kyle@volhacks.org,jared@volhacks.org,colin@volhacks.org">send us an email</a>.</p>
+                    <p>VolHacks would not be possible without the incredible support of these organizations.</p>
                     <br>
                 </div>
                 <div class="col-lg-12">
@@ -695,6 +695,13 @@
             ga('create', 'UA-83731333-1', 'auto');
             ga('send', 'pageview');
 
+        </script>
+
+
+        <script type="text/javascript">
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
         </script>
 
     </body>

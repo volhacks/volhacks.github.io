@@ -689,3 +689,8 @@ td.right {
   padding-bottom: 15px !important;
   text-align: left;
 }
+
+.tooltip {
+  font-family: Gotham, sans-serif;
+  font-size: 14px;
+}
