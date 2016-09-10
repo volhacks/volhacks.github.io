@@ -51,11 +51,13 @@ function init() {
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(35.958710, -83.924556), // New York
+        
+        // Disable dragging on touch screens
+        draggable: !("ontouchend" in document),
 
         // Disables the default Google Maps UI components
         disableDefaultUI: false,
         scrollwheel: false,
-        draggable: true,
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps

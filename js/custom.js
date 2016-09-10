@@ -252,21 +252,12 @@
     /**********************************************************/
     function init_map() {
         var myLocation = new google.maps.LatLng(35.958646,-83.924656);
-            
-            var draggableValue;
-            if($(document).width() <= 768){
-                draggableValue = false;   /*This option is used for disabling drag.*/
-            }
-            else{
-                draggableValue = true;   /*This option is used for disabling drag.*/
-            }
-
 
         var mapOptions = {
             center: myLocation,
             zoom: 16,
             mapTypeControl: true,  /*This option will hide map type.*/
-            draggable: draggableValue,
+            draggable: false,
             scaleControl: false,   /*This option is used for disable zoom by scale.*/
             scrollwheel: false,   /*This option is used for disable zoom on mouse.*/
             navigationControl: true,   /**/
