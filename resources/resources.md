@@ -1,10 +1,10 @@
 ## Hacking Resources
 
-### How to connect to wifi:
+### How to Connect to the Wi-Fi:
 
-- Connect to the network ut-open
-- If your browser doesn't redirect automatically, navigate to [http://guest.utk.edu](http://guest.utk.edu)
-- Log in as a Sponsored Guest with username `utkhack` and password `eecs16hack`
+- Connect to the network `ut-open`.
+- If your browser doesn't redirect automatically, navigate to [http://guest.utk.edu](http://guest.utk.edu).
+- Log in as a **Sponsored Guest** with username `utkhack` and password `eecs16hack`
 
 ### APIs:
 
@@ -16,5 +16,7 @@
 	- [Documentation](https://developers.arcgis.com)
 
 ### Hardware:
+
+- At the event, the items in the VolHacks lab will be posted at <https://hardware.mlh.io/>.
 
 ### Miscellaneous:
