@@ -582,15 +582,17 @@ footer p {
 	}
 	
 	.gold img {
-		width: 21%;
+		width: 18%;
+		margin-left: 3%;
+		margin-right: 3%;
 	}
 	
 	.silver img {
-		width: 19%;
+		width: 17%;
 	}
 	
 	.bronze img {
-		width: 16%;
+		width: 15%;
 	}
 	
 	.partners img {
