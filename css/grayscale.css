@@ -374,7 +374,7 @@ footer {
 footer p {
   margin: 0;
 }
-::-moz-selection {
+/*::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
   background: rgba(255, 255, 255, 0.2);
@@ -389,10 +389,10 @@ img::selection {
 }
 img::-moz-selection {
   background: transparent;
-}
-body {
+}*/
+/*body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
-}
+}*/
 
 .torch {
   color: #E45A3B;
@@ -582,15 +582,17 @@ footer p {
 	}
 	
 	.gold img {
-		width: 21%;
+		width: 18%;
+		margin-left: 3%;
+		margin-right: 3%;
 	}
 	
 	.silver img {
-		width: 19%;
+		width: 17%;
 	}
 	
 	.bronze img {
-		width: 16%;
+		width: 15%;
 	}
 	
 	.partners img {
