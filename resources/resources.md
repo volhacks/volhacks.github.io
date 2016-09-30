@@ -1,10 +1,10 @@
 ## Hacking Resources
 
-### How to connect to wifi:
+### How to Connect to the Wi-Fi:
 
-- Connect to the network ut-open
-- If your browser doesn't redirect automatically, navigate to [http://guest.utk.edu](http://guest.utk.edu)
-- Log in as a Sponsored Guest with username `utkhack` and password `eecs16hack`
+- Connect to the network `ut-open`.
+- If your browser doesn't redirect automatically, navigate to [http://guest.utk.edu](http://guest.utk.edu).
+- Log in as a **Sponsored Guest** with username `utkhack` and password `eecs16hack`
 
 ### APIs:
 
@@ -18,3 +18,6 @@
 	- [Examples](http://support.initialstate.com/knowledgebase/articles/590091-how-to-stream-events-via-restful-api)
 	- [Documentation](http://docs.initialstateeventsapi.apiary.io/#)
 
+### Hardware:
+
+- During the event, the items in the VolHacks lab will be posted at <https://hardware.mlh.io/>.
