@@ -1,8 +1,6 @@
 ## Presentations and Closing Ceremony
 
-#### Presentations
-
-Hey hackers! We hope you had a great weekend and built some great things! Here's a quick rundown of how presentations will work. 
+#### Hey hackers! We hope you had a great weekend and built some great things! Here's a quick rundown of how presentations will work. 
 
 | Time  | Event  |  
 |---|---|
