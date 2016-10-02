@@ -1,10 +1,10 @@
 ## Presentations and Closing Ceremony
 
-#### Hey hackers! We hope you had a great weekend and built some great things! Here's a quick rundown of how presentations will work. 
+#### Hey hackers! We hope you had a great weekend and built some great things! Here's a quick rundown of how closing ceremony will work. 
 
 | Time  | Event  |  
 |---|---|
-| 8:30AM-ish<br>(After Breakfast) | Head to DO416 🚶 |
+| 8:30AM<br>(After Breakfast) | Head to DO416 🚶 |
 | 9:00AM | Presentations and Judging begin! Each team can present one hack for 3 minutes 💻📱⌚️ |
 | 11:00AM | The Judges Confer 😱 (Music Jam)  |
 | 11:30AM | Finalists present again to our final Judges |
