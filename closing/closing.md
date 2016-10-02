@@ -4,7 +4,7 @@
 
 | Time  | Event  |  
 |---|---|
-| 8:30AM (ish) | Head to DO416 🚶 |
+| 8:30AM-ish<br>(After Breakfast) | Head to DO416 🚶 |
 | 9:00AM | Presentations and Judging begin! Each team can present one hack for 3 minutes 💻📱⌚️ |
 | 11:00AM | The Judges Confer 😱 (Music Jam)  |
 | 11:30AM | Finalists present again to our final Judges |
