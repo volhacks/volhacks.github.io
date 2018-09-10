@@ -615,6 +615,7 @@ footer p {
 .card p {
 	font-size: 16px;
 	color: #323335;
+        margin-bottom: 20px;
 }
 
 .card ul {
@@ -624,7 +625,12 @@ footer p {
 }
 
 .card table th td {
-	border: 1px solid black;
+	font-color: black; 
+	border: 3px solid black;
+}
+
+.card img {
+	margin-bottom: 20px; 
 }
 
 #faq {
