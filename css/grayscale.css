@@ -90,14 +90,15 @@ a:focus {
 }
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid #d0d0d0;
   text-transform: uppercase;
   font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-bottom: none;
   background-color: #121212;
 }
 .navbar-custom .navbar-toggle {
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: none;
   font-size: 20px;
   margin-top: 1px;
   margin-bottom: 0px;
@@ -128,16 +129,6 @@ a:focus {
 
 .nav-line {
 	display: none;
-}
-
-@media(min-width: 768px) {
-  .nav-line {
-	height: 28px;
-	border-left: 1px solid #cad2e0;
-	float: left;
-	display: inherit;
-	margin-top: 11px;
-  }
 }
 
 .navbar-custom .nav li a {
