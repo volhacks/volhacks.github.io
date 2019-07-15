@@ -7,7 +7,7 @@
     <meta name="description" content="VolHacks official website, the University of Tennessee, Knoxville's third hackathon, coming in Fall 2018." />
     <meta name="keywords" content="hackathon, university, tennessee, mlh, code, knoxville" />
     <meta name="author" content="VolHacks">
-    <title>VolHacks - UTK's Third Hackathon - 09/28/18 • 09/30/18</title>
+    <title>VolHacks IV – The University of Tennessee's Fourth Annual Hackathon</title>
     <link rel="icon" href="img/favicon.ico">
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-white.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a>
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top">
         <div class="container">
@@ -47,9 +47,9 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a class="page-scroll" href="#schedule">Schedule</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a class="page-scroll" href="#register">Register</a>
                     </li>
@@ -62,9 +62,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a class="page-scroll" href="#organizers">Organizers</a>
-                    </li>
+                    </li>-->
 
                 </ul>
             </div>
@@ -78,21 +78,42 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading"><span class="light orange">Vol</span><span class="eureka">Hacks</span></h1>
-                        <h3>09/28/18 • 09/30/18</h3>
-                        <p class="intro-text">Volhacks III is coming on September 28th through 30th 2018, join us for a weekend of student-driven innovation and collaboration on the hallowed hills of the University of Tennessee, Knoxville.</p>
+                        <h1 class="brand-heading"><span class="light orange">Vol</span><span class="eureka">Hacks</span> IV</h1>
+                        <h3>09.27 • 09.29</h3>
+                        <!--<p class="intro-text">Volhacks III is coming on September 28th through 30th 2018, join us for a weekend of student-driven innovation and collaboration on the hallowed hills of the University of Tennessee, Knoxville.</p>-->
                         <ul class="list-inline banner-social-buttons">
 
-                            <li>
-                                <a href="https://volhacks2018-studentreg.herokuapp.com" target="_blank" class="btn btn-default btn-lg"><!-- <i class="fa fa-link fa-fw"></i> <span class="network-name"><br> -->Register Now!<br>VolHacks III</span></a>
-                            </li>
-                            <li>
-                                <a onclick="location.href='mailto:hello@volhacks.org';" class="btn btn-default btn-lg"><!-- <i class="fa fa-link fa-fw"></i> <span class="network-name"><br> -->Sponsor<br>VolHacks III</span></a>
+                            
+                            <!-- Noscript content for added SEO -->
+                            <noscript><a href="https://www.eventbrite.com/e/volhacks-iv-registration-64850076324" rel="noopener noreferrer" target="_blank"></noscript>
+                            <!-- You can customize this button any way you like -->
+                                <li>
+                                <a id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-default btn-lg"><!-- <i class="fa fa-link fa-fw"></i> <span class="network-name"><br> -->Register Now!</span></a>
+                                </li>
+                                <noscript></a>Register on Eventbrite</noscript>
+
+                            <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                            <script type="text/javascript">
+                            var exampleCallback = function() {
+                                console.log('Order complete!');
+                            };
+
+                            window.EBWidgets.createWidget({
+                                widgetType: 'checkout',
+                                eventId: '64850076324',
+                                modal: true,
+                                modalTriggerElementId: 'eventbrite-widget-modal-trigger-64850076324',
+                                onOrderComplete: exampleCallback
+                            });
+                        </script>
+                            <!--<li>
+                                <a onclick="location.href='mailto:hello@volhacks.org';" class="btn btn-default btn-lg"><!-- <i class="fa fa-link fa-fw"></i> <span class="network-name"><br> Sponsor<br>VolHacks III</span></a>
                             </li>
                             <li>  
                             <a href="https://volhacks.slack.com/" class="btn btn-default btn-lg" target="_blank">
                                 <i class="fa fa-slack fa-fw"></i> <span class="network-name">Slack</span>
-                            </a>
+                            </a>-->
 			    </li> 
                         </ul>
                         <!--
@@ -130,13 +151,13 @@
                         <!--                           <li>
                                 <a href="#register" class="page-scroll btn btn-default btn-lg"><i class="fa fa-ticket fa-fw"></i> <span class="network-name">Register</span></a>
                             </li> -->
-                        <li>
+                        <!--<li>
                             <a href="https://goo.gl/forms/6RNzb5acwhZ7UACz2" target="_blanK" class="btn btn-default btn-lg"><i class="fa fa-users fa-fw"></i> <span class="network-name">Mentor</span></a>
                         </li>
 
                         <li>
                             <a data-toggle="tooltip" data-placement="top" title="We are currently accepting sponsors for the 2018 season" href="mailto:sponsor@volhacks.org?cc=will@volhacks.org, colin@volhacks.org" class="btn btn-default btn-lg page-scroll"><i class="fa fa-money fa-fw"></i> <span class="network-name">Sponsor</span></a>
-                        </li>
+                        </li>-->
                     </ul>
                     <br>
                     <br>
@@ -215,6 +236,8 @@
             </div>
         </section>
         </div>
+        
+    <!--
         <section id="schedule" class="container text-center about-grid">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Schedule</h2>
@@ -403,13 +426,30 @@
                         <i class="fa fa-code-fork fa-fw"></i>
                     </p>
                     <p>Register online to reserve your place! That way, if we fill up, we don't have to give you a thumbs-down after you get here.</p>
-                    <a target="_blank" href="https://volhacks2018-studentreg.herokuapp.com" class="page-scroll btn btn-default btn-lg"> <i class="fa fa-ticket fa-fw"></i> Student Registration</a>
-                    <br>
-                    <br>
-                    <h5 style="color: rgba(255, 255, 255, 0.8); width: 80%; margin: 0 auto;">Registration is open</h5>
-                    <br>
-                    <br>
-                    <a target="_blank" href='https://goo.gl/forms/6RNzb5acwhZ7UACz2';" class="btn btn-default btn-lg">Mentor Registration</a>
+                    
+                    <!-- Noscript content for added SEO -->
+                            <noscript><a href="https://www.eventbrite.com/e/volhacks-iv-registration-64850076324" rel="noopener noreferrer" target="_blank"></noscript>
+                            <!-- You can customize this button any way you like -->
+                                <li>
+                                <a id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-default btn-lg"><!-- <i class="fa fa-link fa-fw"></i> <span class="network-name"><br> --><i class="fa fa-ticket fa-fw"></i> Register for VolHacks IV</span></a>
+                                </li>
+                                <noscript></a>Register on Eventbrite</noscript>
+
+                            <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                            <script type="text/javascript">
+                            var exampleCallback = function() {
+                                console.log('Order complete!');
+                            };
+
+                            window.EBWidgets.createWidget({
+                                widgetType: 'checkout',
+                                eventId: '64850076324',
+                                modal: true,
+                                modalTriggerElementId: 'eventbrite-widget-modal-trigger-64850076324',
+                                onOrderComplete: exampleCallback
+                            });
+                        </script>
                     <br>
                     <br>
                     <br>
@@ -420,7 +460,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Sponsors</h2>
-                    <p>VolHacks would not be possible without the incredible support of these organizations.</p>
+                    <p>VolHacks IV is presented by Elo. This event would not be possible without the incredible support of these organizations.</p>
                     <br>
                 </div>
                 <div class="col-lg-12">
@@ -430,16 +470,12 @@
 
                     <div class="diamond sponsor-section"> 
     		
-			<a target="_blank" href="https://www.asurion.com">
-                            <img alt="Asurion  Logo" src="img/sponsors/AsurionLogo.png">
+			<a target="_blank" href="https://https://www.elotouch.com">
+                            <img alt="Elo Logo" src="img/sponsors/elo.png">
                         </a>
                     </div> 
                     
                     <div class="rose-gold sponsor-section">
-                        
-			<a target="_blank" href="https://https://www.elotouch.com">
-                            <img alt="Elo Logo" src="img/sponsors/elo.png">
-                        </a>
  
                         <a target="_blank" href="https://www.cisco.com">
                             <img alt="Cisco Logo" src="img/sponsors/cisco.svg">
@@ -448,10 +484,6 @@
                     </div>
 
                     <div class="gold sponsor-section">
-                        
-                        <a target="_blank" href="http://www.jtv.com">
-                            <img alt="SAIC" src="img/sponsors/SAIC.png">
-                        </a>
 
                          <a target="_blank" href="http://www.saic.com">
                             <img alt="jtv" src="img/sponsors/jtv.png">
@@ -460,26 +492,10 @@
                        </div>
                     
                     <div class="silver sponsor-section"> 
-    
-                        <a target="_blank" href="http://www.bushbeans.com">
-                            <img alt="Bush Brothers" src="img/sponsors/bush_brothers.jpeg">
-                        </a>
-                  
-			<a target="_blank" href="https://www.google.com">
-                            <img alt="Google Logo" src="img/sponsors/google.svg">
-                        </a>
 
 		    </div> 
                     
                     <div class="bronze sponsor-section">
-
-                        <a target="_blank" href="https://www.swordshield.com">
-                            <img alt="Sword and Shield Logo" src="img/sponsors/sword_shield.png">
-                        </a>
-
-                        <a target="_blank" href="https://www.lyft.com">
-                            <img alt="Lyft Logo" src="img/sponsors/lyft.svg">
-                        </a>
 
                         <a target="_blank" href="https://www.wolfram.com">
                             <img alt="Wolfram Logo" src="img/sponsors/wolfram.png">
@@ -488,14 +504,14 @@
                         <a target="_blank" href="https://www.jetbrains.com">
                             <img alt="Jetbrains Logo" src="img/sponsors/jet_brain.png">
                         </a>
+                        
+                        <a target="_blank" href="http://www.bushbeans.com">
+                            <img alt="Bush Brothers" src="img/sponsors/bush_brothers.jpeg">
+                        </a>
                 
-			<a target="_blank" href="https://www.internationalpaper.com">
-                            <img alt="International Paper Logo" src="img/sponsors/international_paper.png">
-                        </a>
-
-			<a target="_blank" href="https://structure.sh">
-                            <img alt="structure Logo" src="img/sponsors/structure.png">
-                        </a>
+			<!--<a target="_blank" href="https://www.oldi.com/">
+                            <img alt="Online Development Logo" src="img/sponsors/international_paper.png">
+                        </a>-->
 
 
 
@@ -671,13 +687,13 @@
             </div>
         </section>
 
-        <section id="organizers" class="container content-section text-center">
+       <!-- <section id="organizers" class="container content-section text-center">
             <h2>Organizers</h2>
             <img alt="VolHacks Logo" class="logo" src="img/smokey-logo.png">
             <h1 class="brand-heading" style="font-size:3em;margin:10px;"><span class="light orange">Vol</span><span class="eureka">Hacks</span></h1>
             <h3>2018 Leadership Team<br>Org Chart</h3>
             <img width="100%" alt="Volhack Team" src="img/partners/2018_volhacks_org_chart_cropped.png">
-        </section>
+        </section>-->
 
         <section id="location" class="container content-section text-center">
             <div class="row">
@@ -692,6 +708,7 @@
         <!-- Map Section 
         <div id="map"></div>
         -->
+<!--
         <section class="container content-section text-center">
             <ul class="list-inline banner-social-buttons">
                 <li>
@@ -701,7 +718,7 @@
                     <a href="2017_Archive" target="_blank" class="btn btn-default btn-lg">Previous Season<br>Website</span></a>
                 </li>
             </ul>
-        </section>
+        </section>-->
         <!-- Footer -->
         <footer>
             <div class="container text-center">
