@@ -36,7 +36,7 @@ body {
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
-  background-color: white;
+  background-color: #121212;
 }
 html {
   width: 100%;
@@ -90,14 +90,15 @@ a:focus {
 }
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid #d0d0d0;
   text-transform: uppercase;
   font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: white;
+    border-bottom: none;
+  background-color: #121212;
 }
 .navbar-custom .navbar-toggle {
-  color: black;
+  color: white;
   background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: none;
   font-size: 20px;
   margin-top: 1px;
   margin-bottom: 0px;
@@ -123,20 +124,11 @@ a:focus {
 .logo-text {
 	position: relative;
 	bottom: 3px;
+    color:white !important;
 }
 
 .nav-line {
 	display: none;
-}
-
-@media(min-width: 768px) {
-  .nav-line {
-	height: 28px;
-	border-left: 1px solid #cad2e0;
-	float: left;
-	display: inherit;
-	margin-top: 11px;
-  }
 }
 
 .navbar-custom .nav li a {
@@ -182,15 +174,14 @@ a:focus {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: white;
+    background: #121212;
     -webkit-transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
     transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: white;
-	border-bottom: 1px solid #d0d0d0;
+    background: #121212;
   }
 }
 .intro {
@@ -200,7 +191,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: black;
-  background-color: white;
+  background-color: #121212;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -369,6 +360,7 @@ ul.banner-social-buttons {
 }
 footer {
   padding: 50px 0;
+    background-color:#121212;
 }
 footer p {
   margin: 0;
