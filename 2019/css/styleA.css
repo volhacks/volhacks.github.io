@@ -25,13 +25,13 @@ body {
 }
 
 .header {
-    height: 200px;
+    height: 200px !important;
 }
 
 .orange {
-    background-color: #ff8200;
+    background-color: #ff8200 !important;
 }
 
 .blue {
-    background-color: #23bbd2;
+    background-color: #23bbd2 !important;
 }
