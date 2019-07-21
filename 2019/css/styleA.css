@@ -2,16 +2,12 @@ body {
 	background-color: #292929;	
 }
 
-#faq {
-    background-color:#fff;
+.home-block {
+    height: 200px;
 }
 
 .window-height {
     height: 100vh;
-}
-
-.half-window-height {
-    height: 25vh;
 }
 
 .landing-page-brand {
@@ -26,4 +22,16 @@ body {
 .letterpress-effect {
     color: rgba(0, 0, 0, 0.6);
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+.header {
+    height: 200px;
+}
+
+.orange {
+    background-color: #ff8200;
+}
+
+.blue {
+    background-color: #23bbd2;
 }
