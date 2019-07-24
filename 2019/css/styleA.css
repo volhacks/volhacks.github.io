@@ -1,22 +1,73 @@
+/* UNIVERSAL */
+
 body {
-	background-color: #292929;	
+    font-family: 'Montserrat', sans-serif;
+	background-color: #292929;
+    overflow-x: hidden;
 }
 
-.home-block {
-    height: 200px;
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #ff8200;
+}
+
+footer {
+    padding: 15px;
+    background-image: linear-gradient(to right,  #ff8200, #23bbd2);
+}
+
+.name {
+    text-decoration: underline;
+}
+
+
+/* CLASSES */
+
+.brand {
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 20px;
+}
+
+.dates {
+    font-size: 20px;
+    color: #fff;
+}
+
+.no-shadow {
+    text-shadow: none !important;
+}
+
+.vert-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff !important;
 }
 
 .window-height {
     height: 100vh;
+    min-height: 500px;
 }
 
-.landing-page-brand {
-    color: #fff;
+.landing-page {
+    height: 100vh;
+    position: relative;
+    display: block;
 }
 
 .landing-page-numeral {
-    font-size: 50vw;
-    text-align: center;
+    color: #202020;
+    font-size: 500px;
+    line-height: 100vh;
+    transform: translate(0, 0)
 }
 
 .letterpress-effect {
@@ -26,12 +77,104 @@ body {
 
 .header {
     height: 200px !important;
+    position: relative;
+    display: block;
 }
 
-.orange {
+.home-block {
+    height: 200px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.home-block:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.about-btn:before {
+    background-image: url('../assets/img/home/home-bg-1.jpg');
+}
+
+.faq-btn:before {
+    background-image: url('../assets/img/home/home-bg-2.jpg');
+}
+
+.contact-btn:before {
+    background-image: url('../assets/img/home/home-bg-3.jpg');
+}
+
+.sponsors-btn:before {
+    background-image: url('../assets/img/home/home-bg-4.jpg');
+}
+
+
+/* FAQ PAGE */
+
+#faq-header {
+    padding: 50px;
+}
+
+.accordion {
+    background-color: black;
+}
+
+.card {
+    color: #fff;
+    background-color: #353535;
+}
+
+.question {
+    color: #fff;
+}
+
+.question:hover {
+    color: #ff8200;
+    text-decoration: none;
+}
+
+.question:active {
+    color: #ff8200;
+    text-decoration: none;
+}
+
+
+/* VOLHACKS OFFICAL COLORS */
+
+.orange-text {
+    color: #ff8200;
+}
+
+.orange-bg {
     background-color: #ff8200 !important;
 }
 
-.blue {
+.orange-overlay {
+    background-color: rgba(255, 130, 0, 0.4) !important;
+}
+
+.blue-text {
+    color: #23bbd2;
+}
+
+.blue-bg {
     background-color: #23bbd2 !important;
+}
+
+.blue-overlay {
+    background-color: rgba(35, 187, 210, 0.4) !important;
 }
