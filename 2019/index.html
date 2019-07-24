@@ -17,7 +17,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
         
         <!-- Custom CSS -->
-        <link href="css/styleA.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     
     <!-- Content -->
@@ -37,6 +37,34 @@
                             <span class="dates">
                                 <h4 class="no-shadow">9.27 – 9.29</h4>
                             </span>
+                            <span>
+                                
+                                <!-- Noscript content for added SEO -->
+                                <noscript>
+                                    <a href="https://www.eventbrite.com/e/volhacks-iv-registration-64850076324" rel="noopener noreferrer" target="_blank">
+                                </noscript>
+                                    
+                                <!-- Eventbrite Register Button -->
+                                <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark register-btn">
+                                    REG1STER_N0W_
+                                </button>
+                                    
+                                <noscript></a>Buy Tickets on Eventbrite</noscript>
+                                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                                <script type="text/javascript">
+                                    var exampleCallback = function() {
+                                        console.log('Order complete!');
+                                    };
+
+                                    window.EBWidgets.createWidget({
+                                        widgetType: 'checkout',
+                                        eventId: '64850076324',
+                                        modal: true,
+                                        modalTriggerElementId: 'eventbrite-widget-modal-trigger-64850076324',
+                                        onOrderComplete: exampleCallback
+                                    });
+                                </script>
+                            </span>
                         </h1>
                     </div>
                 </div>
@@ -54,21 +82,21 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 blue-overlay">
-                    <a href="#">
+                    <a href="faq.html">
                         <div class="home-block faq-btn">
                             <h2 class="vert-center">FAQ</h2>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 orange-overlay">
-                    <a href="#">
+                    <a href="contact.html">
                         <div class="home-block contact-btn">
                             <h2 class="vert-center">CONTACT</h2>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 blue-overlay">
-                    <a href="#">
+                    <a href="sponsors.html">
                         <div class="home-block sponsors-btn">
                             <h2 class="vert-center">SPONSORS</h2>
                         </div>
@@ -88,7 +116,8 @@
                             <br>
                             <i class="fa fa-copyright"></i>
                             <script type="text/JavaScript"> 
-                                var theDate=new Date(); document.write(theDate.getFullYear()); 
+                                var theDate=new Date(); 
+                                document.write(theDate.getFullYear()); 
                             </script>
                         </div>
                     </div>

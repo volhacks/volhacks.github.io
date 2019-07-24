@@ -31,7 +31,7 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -25%);
     text-shadow: 0px 0px 20px;
 }
 
@@ -104,6 +104,16 @@ footer {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+.register-btn {
+    color: #ff8200 !important;
+    border-color: #ff8200 !important;
+}
+
+.register-btn:hover {
+    color: #fff !important;
+    background-color: #ff8200 !important;
 }
 
 .about-btn:before {
