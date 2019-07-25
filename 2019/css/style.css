@@ -24,7 +24,7 @@ footer {
 }
 
 
-/* CLASSES */
+/* HOME */
 
 .brand {
     font-size: 75px;
@@ -76,7 +76,7 @@ footer {
 }
 
 .header {
-    height: 200px !important;
+    height: 150px !important;
     position: relative;
     display: block;
 }
@@ -135,8 +135,9 @@ footer {
 
 /* FAQ PAGE */
 
-#faq-header {
-    padding: 50px;
+#faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .accordion {
@@ -163,6 +164,30 @@ footer {
 }
 
 
+/* CONTACT PAGE */
+
+#contact {
+    padding-top: 100px;
+    color: #fff;
+}
+
+.insta-bg {
+    background-image: linear-gradient(to right,  #ffdc80, #c13584, #5851db);
+}
+
+.facebook-bg {
+    background-color: #3b5998;
+}
+
+.twitter-bg {
+    background-color: #1da1f2;
+}
+
+.slack-bg {
+    background-color: #4a154b;
+}
+
+
 /* VOLHACKS OFFICAL COLORS */
 
 .orange-text {
@@ -174,7 +199,7 @@ footer {
 }
 
 .orange-overlay {
-    background-color: rgba(255, 130, 0, 0.4) !important;
+    background-color: rgba(255, 130, 0, 0.6) !important;
 }
 
 .blue-text {
@@ -186,5 +211,5 @@ footer {
 }
 
 .blue-overlay {
-    background-color: rgba(35, 187, 210, 0.4) !important;
+    background-color: rgba(35, 187, 210, 0.6) !important;
 }
