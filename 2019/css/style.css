@@ -23,6 +23,19 @@ footer {
     text-decoration: underline;
 }
 
+#register {
+    height: 200px;
+    color: black !important;
+    background-color: #fff;
+}
+
+.register-block {
+    height: 200px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
 
 /* HOME */
 
@@ -53,12 +66,12 @@ footer {
 }
 
 .window-height {
-    height: 100vh;
+    height: 99vh;
     min-height: 500px;
 }
 
 .landing-page {
-    height: 100vh;
+    height: 99vh;
     position: relative;
     display: block;
 }
@@ -66,7 +79,7 @@ footer {
 .landing-page-numeral {
     color: #202020;
     font-size: 500px;
-    line-height: 100vh;
+    line-height: 99vh;
     transform: translate(0, 0)
 }
 
@@ -111,6 +124,16 @@ footer {
     border-color: #ff8200 !important;
 }
 
+.register-txt {
+    color: #606060 !important;
+}
+
+.alt-btn {
+    color: #fff !important;
+    background-image: linear-gradient(to right,  #ff8200, #23bbd2) !important;
+    border: none !important;
+}
+
 .register-btn:hover {
     color: #fff !important;
     background-color: #ff8200 !important;
@@ -130,6 +153,20 @@ footer {
 
 .sponsors-btn:before {
     background-image: url('../assets/img/home/home-bg-4.jpg');
+}
+
+
+/* ABOUT PAGE */
+
+#about {
+    height: 100%;
+    padding-top: 50px;
+    color: #fff;
+    background-image: linear-gradient(to right,  #ff8200, #23bbd2);
+}
+
+.about-wrapper {
+    padding: 100px;
 }
 
 
@@ -167,8 +204,15 @@ footer {
 /* CONTACT PAGE */
 
 #contact {
-    padding-top: 100px;
+    padding-top: 50px;
     color: #fff;
+}
+
+.contact-block {
+    height: 125px;
+    position: relative;
+    display: block;
+    overflow: hidden;
 }
 
 .insta-bg {
@@ -185,6 +229,27 @@ footer {
 
 .slack-bg {
     background-color: #4a154b;
+}
+
+
+/* SPONSORS PAGE */
+
+#sponsors {
+    height: 100%;
+    padding-top: 50px;
+    color: #fff;
+    background-image: linear-gradient(to right,  #ff8200, #23bbd2);
+}
+
+.sponsor-logo {
+    width: 100%;
+    min-height: 280px;
+    padding: 50px;
+}
+
+.logo-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
