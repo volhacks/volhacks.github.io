@@ -24,18 +24,17 @@ footer {
 }
 
 #register {
-    min-height: 200px;
+    min-height: 300px;
     color: #292929 !important;
     background-color: #fff;
 }
 
 .register-block {
-    min-height: 200px;
+    min-height: 300px;
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
     display: block;
-    overflow: hidden;
 }
 
 
