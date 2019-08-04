@@ -155,6 +155,16 @@ footer {
     background-image: url('../assets/img/home/home-bg-4.jpg');
 }
 
+@media (max-width: 768px) {
+    .shrink-txt {
+        font-size: 60px !important;
+    }
+    
+    .landing-page-numeral {
+        font-size: 300px !important;
+    }
+}
+
 
 /* ABOUT PAGE */
 
