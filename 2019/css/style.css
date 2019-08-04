@@ -24,13 +24,15 @@ footer {
 }
 
 #register {
-    height: 200px;
-    color: black !important;
+    min-height: 200px;
+    color: #292929 !important;
     background-color: #fff;
 }
 
 .register-block {
-    height: 200px;
+    min-height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: relative;
     display: block;
     overflow: hidden;
@@ -253,8 +255,12 @@ footer {
 
 .sponsor-logo {
     width: 100%;
-    min-height: 280px;
-    padding: 50px;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-height: 400px;
 }
 
 .logo-wrapper {
