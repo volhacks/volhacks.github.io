@@ -37,6 +37,18 @@ footer {
     display: block;
 }
 
+.nav-link {
+    position: absolute;
+    color: #404040;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.96);
+    box-shadow: 3px 3px 16px 1px rgba(0, 0, 0, 0.3);
+}
+
 
 /* HOME */
 
@@ -78,15 +90,28 @@ footer {
 }
 
 .landing-page-numeral {
-    color: #202020;
+    color: rgba(15, 15, 15, 0.75);
     font-size: 500px;
     line-height: 99vh;
     transform: translate(0, 0)
 }
 
+#landing-bg {
+    position: absolute;
+    z-index: -3;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
 .letterpress-effect {
     color: rgba(0, 0, 0, 0.6);
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+#subpage-header {
+    box-shadow: 10px 3px 16px 1px rgba(0, 0, 0, 0.4);
 }
 
 .header {
@@ -96,7 +121,7 @@ footer {
 }
 
 .home-block {
-    height: 200px;
+    height: 50vh;
     position: relative;
     display: block;
     overflow: hidden;
@@ -120,6 +145,10 @@ footer {
     background-size: cover;
 }
 
+.info-block-divider {
+    border-color: #fff;
+}
+
 .register-btn {
     color: #ff8200 !important;
     border-color: #ff8200 !important;
@@ -141,19 +170,19 @@ footer {
 }
 
 .about-btn:before {
-    background-image: url('../assets/img/home/home-bg-1.jpg');
+    background-image: url('../assets/img/home/ayres_hall.jpg');
 }
 
 .faq-btn:before {
-    background-image: url('../assets/img/home/home-bg-2.jpg');
+    background-image: url('../assets/img/home/utk_campus.jpg');
 }
 
 .contact-btn:before {
-    background-image: url('../assets/img/home/home-bg-3.jpg');
+    background-image: url('../assets/img/home/football_utk.jpg');
 }
 
 .sponsors-btn:before {
-    background-image: url('../assets/img/home/home-bg-4.jpg');
+    background-image: url('../assets/img/home/utk_bridge.jpeg');
 }
 
 @media (max-width: 768px) {
@@ -279,7 +308,7 @@ footer {
 }
 
 .orange-overlay {
-    background-color: rgba(255, 130, 0, 0.6) !important;
+    background-color: rgba(255, 130, 0, 0.8) !important;
 }
 
 .blue-text {
@@ -291,5 +320,5 @@ footer {
 }
 
 .blue-overlay {
-    background-color: rgba(35, 187, 210, 0.6) !important;
+    background-color: rgba(35, 187, 210, 0.8) !important;
 }
