@@ -28,13 +28,41 @@
         <!-- Navigation -->
         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-th-list"></i></a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="about.html">Home <i class="fa fa-home"></i></a>
-            <a class="dropdown-item" href="about.html">About <i class="fa fa-user-secret"></i></a>
-            <a class="dropdown-item" href="faq.html">FAQ <i class="fa fa-question"></i></a>
-            <a class="dropdown-item" href="contact.html">Contact <i class="fa fa-comment"></i></a>
-            <a class="dropdown-item" href="sponsors.html">Sponsors <i class="fa fa-star"></i></a>
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="faq.html">FAQ</a>
+            <a class="dropdown-item" href="contact.html">Contact</a>
+            <a class="dropdown-item" href="sponsors.html">Sponsors</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">R E G I S T E R</a>
+            <a class="dropdown-item" href="#">
+                <span>    
+                    <!-- Noscript content for added SEO -->
+                    <noscript>
+                        <a href="https://www.eventbrite.com/e/volhacks-iv-registration-64850076324" rel="noopener noreferrer" target="_blank">
+                    </noscript>
+
+                    <!-- Eventbrite Register Button -->
+                    <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark register-btn">
+                        register now
+                    </button>
+
+                    <noscript></a>Buy Tickets on Eventbrite</noscript>
+                    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                    <script type="text/javascript">
+                        var exampleCallback = function() {
+                            console.log('Order complete!');
+                        };
+
+                        window.EBWidgets.createWidget({
+                            widgetType: 'checkout',
+                            eventId: '64850076324',
+                            modal: true,
+                            modalTriggerElementId: 'eventbrite-widget-modal-trigger-64850076324',
+                            onOrderComplete: exampleCallback
+                        });
+                    </script>
+                </span>
+            </a>
         </div>
 
         <!-- Frequently Asked Questions -->
@@ -105,7 +133,7 @@
 
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                             <div class="card-body">
-                                The VolHacks team is excited to offer travel reimbursement this year for hackers attending our event! We want to lighten the burden on hackers who are coming from far away! The exact travel reimbursement model is shown in the chart below. To encourage carpooling, your vehicle has to have at least three people to get reimbursement. If you have any questions or need special accommodations please feel free to reach out to us. If you sign up, please make all efforts to attend!
+                                The VolHacks team is excited to offer travel reimbursement this year for hackers attending our event! We want to lighten the burden on hackers who are coming from far away! The exact travel reimbursement model is shown in the chart below. To encourage carpooling, your vehicle has to have at least three people to get reimbursement. If you have any questions or need special accommodations please feel free to reach out to us. If you sign up, please make all efforts to attend!<br><br><b>Unfortunately, we cannot offer reimbursement for those who are flying at this time. We apologize for any inconvenience.</b>
                             </div>
                         </div>
                     </div>
@@ -311,7 +339,7 @@
                                         </noscript>
 
                                         <!-- Eventbrite Register Button -->
-                                        <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark alt-btn">
+                                        <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark register-btn">
                                             register now
                                         </button>
 
@@ -346,7 +374,7 @@
                     <div class="col-12 align-self-center text-center">
                         <div style="color:white">
                             Made with <i class="fa fa-heart"></i> by 
-                            <a href="http://connerbrinkley.com/">Conner B.</a>
+                            <a class="name" href="http://connerbrinkley.com/">Conner B.</a>
                             <br>
                             <i class="fa fa-copyright"></i>
                             <script type="text/JavaScript"> 

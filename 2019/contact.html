@@ -28,13 +28,41 @@
         <!-- Navigation -->
         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-th-list"></i></a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="about.html">Home <i class="fa fa-home"></i></a>
-            <a class="dropdown-item" href="about.html">About <i class="fa fa-user-secret"></i></a>
-            <a class="dropdown-item" href="faq.html">FAQ <i class="fa fa-question"></i></a>
-            <a class="dropdown-item" href="contact.html">Contact <i class="fa fa-comment"></i></a>
-            <a class="dropdown-item" href="sponsors.html">Sponsors <i class="fa fa-star"></i></a>
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="faq.html">FAQ</a>
+            <a class="dropdown-item" href="contact.html">Contact</a>
+            <a class="dropdown-item" href="sponsors.html">Sponsors</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">R E G I S T E R</a>
+            <a class="dropdown-item" href="#">
+                <span>    
+                    <!-- Noscript content for added SEO -->
+                    <noscript>
+                        <a href="https://www.eventbrite.com/e/volhacks-iv-registration-64850076324" rel="noopener noreferrer" target="_blank">
+                    </noscript>
+
+                    <!-- Eventbrite Register Button -->
+                    <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark register-btn">
+                        register now
+                    </button>
+
+                    <noscript></a>Buy Tickets on Eventbrite</noscript>
+                    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                    <script type="text/javascript">
+                        var exampleCallback = function() {
+                            console.log('Order complete!');
+                        };
+
+                        window.EBWidgets.createWidget({
+                            widgetType: 'checkout',
+                            eventId: '64850076324',
+                            modal: true,
+                            modalTriggerElementId: 'eventbrite-widget-modal-trigger-64850076324',
+                            onOrderComplete: exampleCallback
+                        });
+                    </script>
+                </span>
+            </a>
         </div>
 
         <!-- Frequently Asked Questions -->
@@ -47,23 +75,8 @@
         </section>
             
         <section id="contact">
-            <h3 class="text-center">Reach out!</h3>
-            <p class="text-center">Feel free to email us about the event, sponsoring us, partnering with us, or with any other questions!</p>
-            <br>
-            <div class="row no-gutters text-center">
-                <div class="col-12 blue-bg">
-                    <a href="mailto:hello@volhacks.org">
-                        <div class="contact-block">
-                            <h2 class="vert-center">
-                                EMAIL<!--
-                                <span>
-                                    <h6>{ email }</h6>
-                                </span>-->
-                            </h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 insta-bg">
+            <div class="row no-gutters text-center justify-content-center">
+                <div class="col-lg-3 insta-bg">
                     <a href="https://instagram.com/volhacks">
                         <div class="contact-block">
                             <h2 class="vert-center">
@@ -75,7 +88,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-12 facebook-bg">
+                <div class="col-lg-3 facebook-bg">
                     <a href="https://facebook.com/volhacks">
                         <div class="contact-block">
                             <h2 class="vert-center">
@@ -87,7 +100,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-12 twitter-bg">
+                <div class="col-lg-3 twitter-bg">
                     <a href="https://twitter.com/volhacks">
                         <div class="contact-block">
                             <h2 class="vert-center">
@@ -99,7 +112,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-12 slack-bg">
+                <div class="col-lg-3 slack-bg">
                     <a href="https://volhacks.slack.com">
                         <div class="contact-block">
                             <h2 class="vert-center">
@@ -111,18 +124,30 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-12 blue-bg">
+                    <a href="mailto:hello@volhacks.org">
+                        <div class="contact-block">
+                            <h2 class="vert-center">
+                                EMAIL: Hello at this domain<!--
+                                <span>
+                                    <h6>{ email }</h6>
+                                </span>-->
+                            </h2>
+                        </div>
+                    </a>
+                </div>
             </div>
         </section>
         
         <!-- REGISTER NOW -->
-        <section id="register">
+        <section id="register" class="white-bg">
             <div class="row">
                 <div class="col-12">
                     <div class="container">
                         <div class="register-block">
                             <div class="vert-center">
                             
-                                <h5 class="text-center register-txt">Register now, so if we fill up, we don't have to give you a thumbs-down after you get here!
+                                <h5 class="text-center" style="color:#606060">Register now, so if we fill up, we don't have to give you a thumbs-down after you get here!
                                     <br><br>
                                     <span>
 
@@ -132,7 +157,7 @@
                                         </noscript>
 
                                         <!-- Eventbrite Register Button -->
-                                        <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark alt-btn">
+                                        <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark register-btn">
                                             register now
                                         </button>
 
@@ -167,7 +192,7 @@
                     <div class="col-12 align-self-center text-center">
                         <div style="color:white">
                             Made with <i class="fa fa-heart"></i> by 
-                            <a href="http://connerbrinkley.com/">Conner B.</a>
+                            <a class="name" href="http://connerbrinkley.com/">Conner B.</a>
                             <br>
                             <i class="fa fa-copyright"></i>
                             <script type="text/JavaScript"> 

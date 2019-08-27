@@ -28,13 +28,41 @@
         <!-- Navigation -->
         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-th-list"></i></a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="about.html">Home <i class="fa fa-home"></i></a>
-            <a class="dropdown-item" href="about.html">About <i class="fa fa-user-secret"></i></a>
-            <a class="dropdown-item" href="faq.html">FAQ <i class="fa fa-question"></i></a>
-            <a class="dropdown-item" href="contact.html">Contact <i class="fa fa-comment"></i></a>
-            <a class="dropdown-item" href="sponsors.html">Sponsors <i class="fa fa-star"></i></a>
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="faq.html">FAQ</a>
+            <a class="dropdown-item" href="contact.html">Contact</a>
+            <a class="dropdown-item" href="sponsors.html">Sponsors</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">R E G I S T E R</a>
+            <a class="dropdown-item" href="#">
+                <span>    
+                    <!-- Noscript content for added SEO -->
+                    <noscript>
+                        <a href="https://www.eventbrite.com/e/volhacks-iv-registration-64850076324" rel="noopener noreferrer" target="_blank">
+                    </noscript>
+
+                    <!-- Eventbrite Register Button -->
+                    <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark register-btn">
+                        register now
+                    </button>
+
+                    <noscript></a>Buy Tickets on Eventbrite</noscript>
+                    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                    <script type="text/javascript">
+                        var exampleCallback = function() {
+                            console.log('Order complete!');
+                        };
+
+                        window.EBWidgets.createWidget({
+                            widgetType: 'checkout',
+                            eventId: '64850076324',
+                            modal: true,
+                            modalTriggerElementId: 'eventbrite-widget-modal-trigger-64850076324',
+                            onOrderComplete: exampleCallback
+                        });
+                    </script>
+                </span>
+            </a>
         </div>
 
         <!-- Frequently Asked Questions -->
@@ -54,10 +82,13 @@
                     <p class="text-left">From veteran coders to beginners who just want to learn, hackathons have something for everyone. VolHacks is a 36 hour long competition where coders, tinkerers, dreamers, and doers alike all come together to create amazing things.</p>
                     <p class="text-left">Whether you come for the free food, compete for the top prizes, network with the companies, or attend the tech talks, we believe everyone that attends will learn something valuable.</p>
                     <p class="text-left">So why not? It's free!</p>
-                    <br>
+                    <br><hr><br><br>
                     <h3 class="text-right"><b>THE VENUE</b></h3>
                     <p class="text-right">The Min Kao building is one of the newest buildings on campus, with an expansive interior, modern architecture, and ridiculous internet speeds. Min Kao houses the Department of Electrical Engineering and Computer Science, and is a hotspot of innovation at the university. This weekend, it will be home to over 300 hackers building the technology of tomorrow.</p>
-                    </div>
+                    <br><hr><br><br>
+                    <h3><b>WHERE DO I GO?</b></h3>
+                    <p>VolHacks will take place in the Min Kao EECS building on UT's campus: <a class="orange-text" href="https://www.google.com/maps/place/Department+of+Electrical+Engineering+and+Computer+Science/@35.958735,-83.924121,18z/data=!4m5!3m4!1s0x0:0x5ae47667cdb72706!8m2!3d35.9586585!4d-83.9245267?hl=en-US"> 1520 Middle Dr, Knoxville, TN 37996</a>. You can park in the <a target="_blank" class="orange-text" href="https://www.google.com/maps/place/11th+Street+Parking+Garage,+1101+Cumberland+Ave,+Knoxville,+TN+37916/@35.9597291,-83.9274756,17z/data=!3m1!4b1!4m5!3m4!1s0x885c17ddb7a7e377:0x5102d7d12e225a36!8m2!3d35.9597059!4d-83.9252861">11th Street Parking Garage</a> right across the street for free.</p>
+                </div>
             </div>
         </section>
         
@@ -79,7 +110,7 @@
                                         </noscript>
 
                                         <!-- Eventbrite Register Button -->
-                                        <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark alt-btn">
+                                        <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark register-btn">
                                             register now
                                         </button>
 
@@ -114,7 +145,7 @@
                     <div class="col-12 align-self-center text-center">
                         <div style="color:white">
                             Made with <i class="fa fa-heart"></i> by 
-                            <a href="http://connerbrinkley.com/">Conner B.</a>
+                            <a class="name" href="http://connerbrinkley.com/">Conner B.</a>
                             <br>
                             <i class="fa fa-copyright"></i>
                             <script type="text/JavaScript"> 

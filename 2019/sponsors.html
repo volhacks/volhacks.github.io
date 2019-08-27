@@ -28,13 +28,41 @@
         <!-- Navigation -->
         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-th-list"></i></a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="about.html">Home <i class="fa fa-home"></i></a>
-            <a class="dropdown-item" href="about.html">About <i class="fa fa-user-secret"></i></a>
-            <a class="dropdown-item" href="faq.html">FAQ <i class="fa fa-question"></i></a>
-            <a class="dropdown-item" href="contact.html">Contact <i class="fa fa-comment"></i></a>
-            <a class="dropdown-item" href="sponsors.html">Sponsors <i class="fa fa-star"></i></a>
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="faq.html">FAQ</a>
+            <a class="dropdown-item" href="contact.html">Contact</a>
+            <a class="dropdown-item" href="sponsors.html">Sponsors</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">R E G I S T E R</a>
+            <a class="dropdown-item" href="#">
+                <span>    
+                    <!-- Noscript content for added SEO -->
+                    <noscript>
+                        <a href="https://www.eventbrite.com/e/volhacks-iv-registration-64850076324" rel="noopener noreferrer" target="_blank">
+                    </noscript>
+
+                    <!-- Eventbrite Register Button -->
+                    <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark register-btn">
+                        register now
+                    </button>
+
+                    <noscript></a>Buy Tickets on Eventbrite</noscript>
+                    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                    <script type="text/javascript">
+                        var exampleCallback = function() {
+                            console.log('Order complete!');
+                        };
+
+                        window.EBWidgets.createWidget({
+                            widgetType: 'checkout',
+                            eventId: '64850076324',
+                            modal: true,
+                            modalTriggerElementId: 'eventbrite-widget-modal-trigger-64850076324',
+                            onOrderComplete: exampleCallback
+                        });
+                    </script>
+                </span>
+            </a>
         </div>
 
         <!-- Frequently Asked Questions -->
@@ -52,34 +80,62 @@
                 <p class="text-center">This event would not be possible without the incredible support of these organizations</p>
                 <div class="logo-wrapper">
                     <div class="row no-gutters justify-content-center">
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-6">
                             <a href="https://www.elotouch.com/">
-                                <img alt="Elo Logo" src="assets/sponsors/elo.png" class="sponsor-logo img-fluid img-thumbnail">
+                                <img alt="Elo Logo" src="assets/sponsors/elo.png" class="sponsor-logo img-fluid">
                             </a>
                         </div>
-                        <div class="col-lg-3 col-md-4">
+                    </div>
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-lg-5">
                             <a href="https://www.cisco.com/">
-                                <img alt="Elo Logo" src="assets/sponsors/cisco.svg" class="sponsor-logo img-fluid img-thumbnail">
+                                <img alt="Cisco Logo" src="assets/sponsors/cisco.svg" class="sponsor-logo img-fluid">
                             </a>
                         </div>
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-5">
+                            <a href="https://www.asurion.com/">
+                                <img alt="Asurion Logo" src="assets/sponsors/asurion_logo_black_rgb.jpg" class="sponsor-logo img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-lg-5">
                             <a href="https://www.jtv.com/">
-                                <img alt="Elo Logo" src="assets/sponsors/jtv.png" class="sponsor-logo img-fluid img-thumbnail">
+                                <img alt="JTV Logo" src="assets/sponsors/jtv.png" class="sponsor-logo img-fluid">
                             </a>
                         </div>
-                        <div class="col-lg-3 col-md-4">
-                            <a href="https://www.wolfram.com/">
-                                <img alt="Elo Logo" src="assets/sponsors/wolfram.png" class="sponsor-logo img-fluid img-thumbnail">
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
-                            <a href="https://www.jetbrains.com/">
-                                <img alt="Elo Logo" src="assets/sponsors/jet_brain.png" class="sponsor-logo img-fluid img-thumbnail">
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-4">
+                    </div>
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-lg-5">
                             <a href="https://www.bushbeans.com/">
-                                <img alt="Elo Logo" src="assets/sponsors/bush_brothers.jpeg" class="sponsor-logo img-fluid img-thumbnail">
+                                <img alt="Bush Brothers Logo" src="assets/sponsors/bush_brothers.jpeg" class="sponsor-logo img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-lg-4">
+                            <a href="https://www.wolfram.com/">
+                                <img alt="Wolfram Logo" src="assets/sponsors/wolfram.png" class="sponsor-logo img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="https://www.jetbrains.com/">
+                                <img alt="Jetbrains Logo" src="assets/sponsors/jet_brain.png" class="sponsor-logo img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="https://www.oldi.com/">
+                                <img alt="Online Development Logo" src="assets/sponsors/online-dev.png" class="sponsor-logo img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="https://www.swordshield.com/">
+                                <img alt="Advertium Logo" src="assets/sponsors/advertium.png" class="sponsor-logo img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="https://www.homelight.com/knoxville-tn/top-real-estate-agents">
+                                <img alt="HomeLight Logo" src="assets/sponsors/HomeLightLogo.jpg" class="sponsor-logo img-fluid">
                             </a>
                         </div>
                     </div>
@@ -105,7 +161,7 @@
                                         </noscript>
 
                                         <!-- Eventbrite Register Button -->
-                                        <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark alt-btn">
+                                        <button id="eventbrite-widget-modal-trigger-64850076324" type="button" class="btn btn-outline-dark register-btn">
                                             register now
                                         </button>
 
@@ -140,7 +196,7 @@
                     <div class="col-12 align-self-center text-center">
                         <div style="color:white">
                             Made with <i class="fa fa-heart"></i> by 
-                            <a href="http://connerbrinkley.com/">Conner B.</a>
+                            <a class="name" href="http://connerbrinkley.com/">Conner B.</a>
                             <br>
                             <i class="fa fa-copyright"></i>
                             <script type="text/JavaScript"> 
