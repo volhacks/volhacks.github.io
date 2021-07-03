@@ -49,6 +49,11 @@
   .panel-collapse .panel-body {
     margin-left: 0px !important;
   }
+
+  .google-maps{
+    min-width: 350px;
+    min-height: 250px;
+  }
 }
 @media (max-width: 991px) {
   body {
@@ -332,3 +337,5 @@
     display: inline-block;
   }
 }
+
+
