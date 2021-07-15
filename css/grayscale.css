@@ -551,8 +551,9 @@ footer p {
 }
 
 .sponsor-section {
-	width: 100%;
+	width: 40%;
 	padding-bottom: 0px;
+  margin: auto;
 	margin-bottom: 15px;
 	/*border-bottom: 1px solid #d7d7d7;*/
 }
@@ -568,11 +569,11 @@ footer p {
 }
 
 .flagship img, .diamond img, .rose-gold img {
-	width: 70%;
+	width: 50%;
 }
 
 .gold img, .silver img, .bronze img {
-	width: 39%;
+	width: 30%;
 }
 
 .partners img {
@@ -582,27 +583,27 @@ footer p {
 @media (min-width: 768px) {
 
 	.flagship img {
-		width: 80%;
+		width: 52%;
 	}
 	
 	.diamond img {
-		width: 32%;
+		width: 44%;
 	}
 	
 	.rose-gold img {
-		width: 24%;
+		width: 36%;
 	}
 	
 	.gold img {
-		width: 18%;
+		width: 28%;
 	}
 	
 	.silver img {
-		width: 16%;
+		width: 28%;
 	}
 	
 	.bronze img {
-		width: 12%;
+		width: 16%;
 	}
 	
 	.partners img {
@@ -638,7 +639,7 @@ footer p {
 }
 
 .card table th td {
-	font-color: black; 
+	font: black; 
 	border: 3px solid black;
 }
 
