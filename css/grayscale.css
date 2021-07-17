@@ -551,7 +551,7 @@ footer p {
 }
 
 .sponsor-section {
-	width: 55%;
+	width: 80%;
 	padding-bottom: 0px;
   margin: auto;
 	margin-bottom: 15px;
@@ -559,9 +559,11 @@ footer p {
 }
 
 .sponsor-section img {
-	margin: 5%;
+	margin: 2%;
 }
-
+.partner-section img{
+  margin: 5%;
+}
 .partner-section {
   padding-top: 60px;
   border-top: 1px solid #d7d7d7;
@@ -569,15 +571,19 @@ footer p {
 }
 
 .flagship img, .diamond img, .rose-gold img {
-	width: 50%;
+	width: 90%;
 }
 
-.gold img, .silver img, .bronze img {
-	width: 30%;
+.gold img, .silver img {
+	width: 60%;
+}
+
+.bronze img{
+  width: 40%;
 }
 
 .partners img {
-	width: 22%;
+	width: 40%;
 }
 
 @media (min-width: 768px) {
@@ -599,15 +605,15 @@ footer p {
 	}
 	
 	.silver img {
-		width: 28%;
+		width: 35%;
 	}
 	
 	.bronze img {
-		width: 16%;
+		width: 13%;
 	}
 	
 	.partners img {
-		width: 20%;
+		width: 15%;
 	}
 }
 
