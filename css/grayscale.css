@@ -725,3 +725,27 @@ td.right {
   font-family: Gotham, sans-serif;
   font-size: 14px;
 }
+
+.mc_email_input{
+  border: 2px solid #FF8200;
+  color: #FF8200;
+}
+
+.subscribe-button{
+  padding: 10px 16px;
+  vertical-align:0%;
+}
+
+@media (max-width: 767px){
+  .mc_email_input{
+    border: 2px solid #FF8200;
+    color: #FF8200;
+    margin: 5px; 
+  }
+}
+
+.mc_email_input::placeholder{
+  color: #FF8200;
+}
+
+
