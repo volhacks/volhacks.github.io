@@ -729,6 +729,7 @@ td.right {
 .mc_email_input{
   border: 2px solid #FF8200;
   color: #FF8200;
+  outline: none;
 }
 
 .subscribe-button{
