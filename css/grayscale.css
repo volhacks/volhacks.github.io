@@ -753,3 +753,7 @@ td.right {
   overflow: hidden;
 }
 
+.google-maps iframe{
+  width: 100%;
+  height: 125px;
+}
