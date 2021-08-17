@@ -371,6 +371,9 @@ ul.banner-social-buttons {
   	width: 70%;
   	max-width: 320px;
   }
+  .sponsor {
+    width: 248.64px;
+  }
 }
 footer {
   padding: 50px 0;
@@ -378,6 +381,7 @@ footer {
 footer p {
   margin: 0;
 }
+
 /*::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
@@ -446,6 +450,9 @@ img::-moz-selection {
 	background-attachment: scroll !important;
 }
 
+.sponsor {
+  width:  208.84px;
+}
 @media (min-width: 492px) {
 	.wide-photo {
 		background-attachment: fixed !important;
