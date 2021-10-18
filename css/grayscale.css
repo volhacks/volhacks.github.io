@@ -584,6 +584,10 @@ footer p {
   width: 40%;
 }
 
+img[src="img/sponsors/leading-learners.png"]{
+  width: 70%;
+}
+
 .partners img {
 	width: 32%;
 }
@@ -609,7 +613,10 @@ footer p {
 	.bronze img {
 		width: 14%;
 	}
-	
+
+	img[src="img/sponsors/leading-learners.png"]{
+    width: 30%;
+  }
 	.partners img {
 		width: 12%;
 	}
